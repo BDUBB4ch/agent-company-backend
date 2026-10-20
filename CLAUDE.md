@@ -214,6 +214,10 @@ are Elliot's; EP2+ Elliot has creative input.
 - Logs: `data/bonsai_server.log` (check `prompt eval time` first when slow),
   `data/bonsai_events.log`, `data/jobs.log`, `data/traces.jsonl`, `data/watchdog.log`.
 
+- **Cloud repo (2026-10-19):** https://github.com/BDUBB4ch/agent-company-backend (private, his). Its `main` is the local
+  orphan branch `cloud` = CODE ONLY (see .gitignore's 2026-10-19 block); local `master` holds everything. Cloud sessions start
+  from it; nothing of his or the agents' goes up. Refresh: rebuild `cloud` via a temp index, push `cloud:main`.
+
 ## Open items (his calls)
 - **Z-Image character LoRAs — BLOCKED on RAM:** ComfyUI TrainLoraNode needs ~33+ GB system RAM here; that caused both PC
   crashes. Any retry: run scripts/ram_watchdog.py first. Datasets + scripts ready (HANDOFF-2026-09-25.md). Waiting on his go.
