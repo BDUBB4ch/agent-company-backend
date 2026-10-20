@@ -21,7 +21,7 @@ Drawing 2, hexagram (faithful). Two interlaced equilateral triangles on one cent
 ## The Key of Solomon (Clavicula Salomonis)
 The Greater Key is probably fourteenth or fifteenth century and Italian, an estimate. Its ancestor is the Greek Hygromanteia (fifteenth century). Sloane 3847 is dated 1572. The usual English is S. L. MacGregor Mathers' 1889 edition. The French "Veritable Key" has more than twice as many pentacles as he printed.
 
-Mathers prints 44 pentacles: seven each for Saturn, Jupiter, Mars and the Sun, five each for Venus and Mercury, six for the Moon. Book I chapter 18: make each on its planet's day and hour, on virgin parchment never used for anything else, or in the planet's metal purified by fire: lead for Saturn, tin for Jupiter, iron for Mars, gold for the Sun, copper for Venus, mixed metals for Mercury, silver for the Moon. Colours: black, celestial blue, red, gold or citron, green, mixed, silver, in the same order. Size is free "so long as they are made according to the rules." Another chapter says all on Wednesday in Mercury's hour.
+Mathers prints 44 pentacles: seven each for Saturn, Jupiter, Mars and the Sun, five each for Venus and Mercury, six for the Moon. Book I chapter 18: make each on its planet's day and hour, on virgin parchment never used for anything else, or in the planet's metal purified by fire: lead for Saturn, tin for Jupiter, iron for Mars, gold for the Sun, copper for Venus, mixed metals for Mercury, silver for the Moon. Colours: black, celestial blue, red, gold or citron, green, mixed, silver, in the same order. Size is free. Another chapter says all on Wednesday in Mercury's hour.
 
 The form is constant: a circle, a second circle inside it, and "in the space between the two thou shalt write the Names of God", or angel names, or a Hebrew verse from the Psalms. Inside sits the working figure: a square, cross, star, letter square, or rows of Hebrew letters that are names read across or down.
 
@@ -51,16 +51,16 @@ The Lesser Key (Lemegeton) is a seventeenth-century English compilation in five 
 
 Johann Weyer printed 69 demons, the Pseudomonarchia daemonum, as an appendix to the 1577 edition of his De praestigiis daemonum, from a source he called the Liber officiorum spirituum. Weyer gives no seals. The Goetia, leaning on Reginald Scot's 1584 English version, changes the order, adds four spirits and drops Pruflas, making 72. Behind both stands the fifteenth-century French Livre des Esperitz, where 30 of 47 spirits match. The seals are the late, seventeenth-century layer.
 
-Each entry gives rank, legions, the shape the spirit takes, its offices, and its seal, which "thou must wear as a Lamen upon thy breast". The "Observations" say the seals "are to be made in Metals": kings in gold, marquises in silver, dukes in copper, prelates in tin, knights in lead, presidents in Mercury, earls in copper and silver "alike equal." Mars and iron are missing; an annotated edition suggests iron for earls.
+Each entry gives rank, legions, the shape the spirit takes, its offices, and its seal, which "thou must wear as a Lamen upon thy breast". The "Observations" say the seals "are to be made in Metals": kings in gold, marquises in silver, dukes in copper, prelates in tin, knights in lead, presidents in Mercury, earls in copper and silver "alike equal." Mars and iron are missing (an annotated edition suggests iron for earls).
 
 A representative set:
-- Bael, the first: a king ruling in the East, 66 legions (six in the Livre des Esperitz); three heads, toad, man and cat; teaches invisibility. Gold.
-- Paimon: a king, 200 legions, more obedient to Lucifer than other kings; a man with an effeminate face and a precious crown, riding a dromedary. Mathers prints more than one version of his seal. Gold.
-- Asmoday: a king, 72 legions; three heads, bull, man and ram, a serpent's tail, flames from his mouth; seal worn as a lamen on the breast. Gold.
+- Bael, the first: a king ruling in the East, 66 legions; three heads, toad, man and cat; makes one invisible. Gold.
+- Paimon: a king, 200 legions, "very obedient unto Lucifer"; a man on a dromedary with "a crown most glorious" (the effeminate face is Weyer's). Mathers prints more than one version of his seal. Gold.
+- Asmoday: a king under Amaymon, 72 legions; heads of bull, man and ram, a serpent's tail, a goose's webbed feet, flames from his mouth. Gold.
 - Vassago: a prince of good nature, 26 legions; tells things past and to come, finds things lost and hidden.
 - Buer: a president, 50 legions; teaches philosophy, logic and the virtues of herbs, and heals.
-- Stolas: a prince, 26 legions; a raven, then a man; teaches astronomy, herbs and precious stones.
-- Andromalius, the seventy-second: an earl holding a great serpent; brings back thieves and stolen goods.
+- Stolas: a prince, 26 legions; a mighty raven, then a man; teaches astronomy, herbs and precious stones.
+- Andromalius, the seventy-second: an earl, 36 legions, holding a great serpent; brings back thieves and stolen goods.
 
 The seals are not drawn here: each survives only as a picture, the copies differ, and estimated lines would make false seals. What they share:
 - Each is set inside a ring (names lettered round the rim are a modern habit); inside are straight lines, crosses and arcs, usually near-symmetrical about an upright axis.
@@ -86,7 +86,7 @@ Drawing 6, Sworn Book Sigillum Dei, bare skeleton (approximate):
 - "M 47 48 L 53 48"
 - "M 50 48 L 50 54"
 
-In 1582 Dee, dissatisfied with the older versions, had angels dictate a new one through his scryer Edward Kelley (Mysteriorum Libri Quinti; drawing in Sloane MS 3188), named Aemeth (Hebrew emeth, "truth"). Its parts are two circles, a pentagram, heptagons and a heptagram. Secondary sources give 40 cells round the rim and seven seven-letter names in the heptagram's triangles; neither was checked against the manuscript. It was pure white wax, engraved both sides, about nine inches across. Uriel ordered a table two cubits square with the seal at its centre under the scrying stone, and a smaller wax seal under each leg.
+In 1582 Dee, dissatisfied with the older versions, had angels dictate a new one through his scryer Edward Kelley (Mysteriorum Libri Quinti; drawing in Sloane MS 3188), named Aemeth (Hebrew emeth, "truth"). Its parts are two circles, a pentagram, heptagons and a heptagram. Secondary sources give 40 cells round the rim and seven seven-letter names in the heptagram's triangles; neither was checked against the manuscript. It was white wax, engraved both sides, about nine inches across. Uriel ordered a table two cubits square with the seal at its centre under the scrying stone, and a smaller wax seal under each leg.
 
 Drawing 7, Sigillum Dei Aemeth, bare skeleton (approximate). Two circles, one heptagon, the central pentagram; the heptagram and inner heptagons are left out as unconfirmed:
 - "M 3 50 A 47 47 0 1 1 97 50 A 47 47 0 1 1 3 50"
@@ -95,10 +95,10 @@ Drawing 7, Sigillum Dei Aemeth, bare skeleton (approximate). Two circles, one he
 - "M 50 36 L 58.23 61.33 L 36.69 45.67 L 63.31 45.67 L 41.77 61.33 Z"
 
 ## The Ars Notoria and its notae
-The Notory Art of Solomon is a thirteenth-century grimoire for learning the liberal arts fast. Its notae are prayers in mixed Greek, Aramaic and Hebrew calling on angel names, and figures gazed at while praying. Julien Veronese, its critical editor, links the figures to Neoplatonic divine symbols or vision devices; Yates, Page and Castle read them as memory aids. None is drawn here.
+The Notory Art of Solomon is a thirteenth-century grimoire for learning the liberal arts fast. Its notae are prayers in mixed Greek, Aramaic and Hebrew calling on angel names, and figures gazed at while praying. Scholars read the figures as divine symbols, vision devices or memory aids. None is drawn here.
 
 ## The Picatrix and the images of the planets
-The Picatrix is the Arabic Ghayat al-Hakim, written in al-Andalus in the tenth or eleventh century and put into Castilian and Latin at Alfonso X's court around 1256. Its talisman is an image engraved at a chosen astrological moment to hold a planet's power; its seals are pictures, not linear marks. Book II chapter 10: Saturn, a man with a crow-like face and camel's feet on a throne, a spear in his right hand and a lance or dart in his left; Jupiter, per Apollonius, a man sitting on an eagle wrapped in a cloth; the Sun, a crowned king on a throne with a crow before him and the Sun's figure beneath his feet. Ficino and Agrippa drew on it.
+The Picatrix is the Arabic Ghayat al-Hakim, written in al-Andalus in the tenth or eleventh century and put into Castilian and Latin at Alfonso X's court around 1256. Its talisman is an image engraved at a chosen astrological moment to hold a planet's power; its seals are pictures, not linear marks. Book II chapter 10: Saturn, a man with a crow-like face and camel's feet on a throne, a spear in his right hand and a lance or dart in his left; Jupiter, per Apollonius, a man sitting on an eagle wrapped in a cloth; the Sun, a crowned king on a throne with a crow before him and the Sun's figure beneath his feet.
 
 ## Agrippa's planetary squares
 Agrippa's Three Books of Occult Philosophy (1533), Book II chapter 22, gives "sacred tables of the planets", magic squares from three-by-three (Saturn) to nine-by-nine (the Moon), each with a divine name, an intelligence for good and a spirit for evil. Saturn's holds 1 to 9 with every line and diagonal making 15 and the whole 45. "From these same numbers are elicited a seal or character of Saturn and his spirit": lines drawn through the cells whose numbers spell the name, the method later used for new sigils.
@@ -162,6 +162,9 @@ Read through web-search extracts (direct page fetches were blocked in the resear
 - https://en.wikipedia.org/wiki/Paimon
 - https://www.fromoldbooks.org/Mathers-Goetia/pages/009-Seal-of-Paimon/
 - https://www.fromoldbooks.org/Mathers-Goetia/pages/032-Seal-of-Asmoday/
+- https://en.wikisource.org/wiki/Page:The_Book_of_the_Goetia_(Mathers-Crowley,_1904).djvu/29
+- https://hermetic.com/norton/classics/goetia/stolas
+- https://sacred-texts.com/grim/lks/lks10.htm
 - https://www.esotericarchives.com/solomon/weyer.htm
 - https://en.wikipedia.org/wiki/Pseudomonarchia_Daemonum
 - https://en.wikipedia.org/wiki/Livre_des_Esperitz
