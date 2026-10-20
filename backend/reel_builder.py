@@ -498,7 +498,7 @@ HF_ENV = {"HYPERFRAMES_OFFLINE": "1", "HYPERFRAMES_NO_TELEMETRY": "1", "DO_NOT_T
 CARD_RENDER_TIMEOUT_S = 240
 
 
-CARD_KINDS = ("map", "fact")     # fact (2026-10-17, step 2): one short line with its number, over the real plant photo
+CARD_KINDS = ("map", "fact", "grimoire")   # grimoire (2026-10-19): one of her own grimoire pages as a book page     # fact (2026-10-17, step 2): one short line with its number, over the real plant photo
 
 
 def _card_kind(scene: dict) -> str:
@@ -553,6 +553,18 @@ def _card_project(scene: dict, seconds: float, fmt: dict, d: str, idx: int) -> s
                 .replace("{{REGIONS}}", _html.escape(regions))
                 .replace("{{TOKENS}}", json.dumps(_card_tokens(regions)))
                 .replace("{{WORLD_SVG}}", svg))
+    elif kind == "grimoire":                        # 2026-10-19: her grimoire page -- her title, sigil and words
+        pg = scene.get("grimoire_page") or {}
+        body = str(pg.get("text") or "").strip()
+        n = len(body)
+        bpx = ((40 if n <= 260 else 34 if n <= 520 else 28 if n <= 900 else 23) if tall else
+               (34 if n <= 260 else 28 if n <= 520 else 23 if n <= 900 else 19))
+        body_html = "<br>".join(_html.escape(" ".join(line.split()))
+                                for line in re.split(r"\n+|(?<=[.!?])\s+", body) if line.strip())
+        page = (page.replace("{{TITLE_PX}}", "64" if tall else "54").replace("{{BODY_PX}}", str(bpx))
+                .replace("{{TITLE}}", _html.escape(str(pg.get("title") or "")))
+                .replace("{{TEXT}}", body_html)
+                .replace("{{SIGIL_PATHS}}", json.dumps([str(x) for x in (pg.get("sigil") or [])])))
     else:                                           # fact: the line big, the plant photo (if any) behind it
         fact = " ".join(str(scene.get("fact") or "").split())
         bg = ""
@@ -578,6 +590,10 @@ def _card_render(proj: str, out_mp4: str, log) -> bool:
         return False
     env = dict(os.environ)
     env.update(HF_ENV)
+    # 2026-10-19: a process started under the Windows App Health detector carries __COMPAT_LAYER=DetectorsAppHealth;
+    # Edge sees it and RELAUNCHES itself (--edge-skip-compat-layer-relaunch), so the process puppeteer started exits 0
+    # at once and every card render dies with "Failed to launch the browser process: Code: 0".
+    env.pop("__COMPAT_LAYER", None)
     env["PATH"] = os.path.join(HF_DIR, "bin") + os.pathsep + env.get("PATH", "")
     try:
         r = subprocess.run(["node", HF_CLI, "render", proj, "-o", out_mp4, "--fps", str(FPS), "--quality", "looks",
@@ -633,7 +649,8 @@ def _card_scene(scene: dict, seconds: float, fmt: dict, d: str, idx: int, log) -
             scene["_card_photo"], scene["_photo_credit"] = ref[0], ref[1]
     ok = _card_render(_card_project(scene, seconds, fmt, d, idx), mp4, log)
     if ok:
-        _run(["-ss", f"{min(1.4, max(0.0, seconds - 0.1)):.2f}", "-i", mp4, "-frames:v", "1", png])
+        grab = (max(0.0, seconds * 0.9) if _card_kind(scene) == "grimoire" else min(1.4, max(0.0, seconds - 0.1)))
+        _run(["-ss", f"{grab:.2f}", "-i", mp4, "-frames:v", "1", png])
         log(f"map card (part {idx + 1}): {seconds:.1f}s rendered in {time.time() - t0:.0f}s")
         return png, mp4
     _card_fallback_still(scene, fmt, png)
@@ -1272,6 +1289,10 @@ async def build_reel(package: dict, log=print, storyboard=None) -> dict:
             _motion_scene_clip(vids[i], sec, out, fmt, clip_s=_clip_seconds(scenes[i]))
         else:
             _scene_clip(img, sec, i, out, fmt, self_shot=_is_self(scenes[i]))
+        if scenes[i].get("fx"):                    # 2026-10-19: her effects (fx.py, CPU) over the finished clip
+            import fx as _fx
+            _fx.apply(out, scenes[i]["fx"], sec, fmt, d, i, log, sigil=scenes[i].get("sigil"),
+                      sigil_at=scenes[i].get("sigil_at") or "center")
         clips.append(out)
     with open(os.path.join(d, "clips.txt"), "w") as fh:
         fh.writelines(f"file '{os.path.basename(c)}'\n" for c in clips)

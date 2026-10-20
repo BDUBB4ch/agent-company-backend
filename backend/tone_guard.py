@@ -74,8 +74,13 @@ def clean_taliyah_reply(text: str) -> str:
 
     cleaned = _EMOJI_RE.sub("", cleaned)
 
+    # 2026-10-19 audit fix 5: only a term standing in ADDRESS position goes -- at the start followed by a comma
+    # ("Boss, listen"), after punctuation and followed by a comma ("Hey, sweetie, come here"), or after a comma at the
+    # end of a sentence ("come here, boss."). "My business partner" and "the boss said" stay whole.
     for term in _ADDRESS_NICKNAMES:
-        cleaned = re.sub(rf"[,'’]?\s*\b{re.escape(term)}\b[,'’]?", "", cleaned, flags=re.IGNORECASE)
+        t = re.escape(term)
+        cleaned = re.sub(rf"(?:^|(?<=[,.!?;:]))\s*\b{t}\b\s*[,;:]", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(rf",\s*\b{t}\b(?=\s*(?:[.!?]|$))", "", cleaned, flags=re.IGNORECASE)
 
     for term in _CJK_LEAKAGE:
         cleaned = cleaned.replace(term, "")
@@ -86,7 +91,12 @@ def clean_taliyah_reply(text: str) -> str:
         # END of a term like "w/" -- both "/" and the space after it are
         # non-word characters, so there's no transition there for \b to
         # find. Confirmed live: "w/" never got replaced under \b\b.
-        cleaned = re.sub(rf"(?<!\w){re.escape(slang)}(?!\w)", plain, cleaned, flags=re.IGNORECASE)
+        # 2026-10-19 audit fix 5: one- and two-letter shorthand ("u", "r", "ur") only when lowercase and not an
+        # initial -- "the U.S." was becoming "the you.S." and "Toys R Us" "Toys are Us".
+        if len(slang) <= 2:
+            cleaned = re.sub(rf"(?<!\w){re.escape(slang)}(?!\w|\.)", plain, cleaned)
+        else:
+            cleaned = re.sub(rf"(?<!\w){re.escape(slang)}(?!\w)", plain, cleaned, flags=re.IGNORECASE)
 
     # 2026-10-17: g-dropping ("chillin'", "sayin'") and "'bout" are no longer restored -- Barry wants some slang
     # back. The old _restore_g pass and the wit'/'bout/ta rewrites are deleted, not disabled (his rule).

@@ -114,7 +114,29 @@ MAKE_VIDEO_TOOL = {
                                                 "its number if it has one (\"Scopolamine 0.2 to 0.6 percent\", "
                                                 "\"Used for 3,000 years\") -- shown big over the real plant photo, "
                                                 "with the scientific name (give \"plant\"). For the one number or "
-                                                "name people must not mishear; 2-5 seconds of your line."}},
+                                                "name people must not mishear; 2-5 seconds of your line."},
+                        "fx": {"type": "array", "items": {"type": "string"},
+                               "description": "EFFECTS over this part, any of: ritual (night grade: purple shadows, "
+                                              "grain, vignette), blood (red, crushed blacks), cold (dead blue), "
+                                              "flicker (candlelight breathing), glow (bloom on the bright parts), "
+                                              "grain, vignette, smoke (purple magic smoke rising), embers, sparks "
+                                              "(bursts), lightning (strikes with a flash), sigil (YOUR OWN "
+                                              "sigil, drawn in light as you cast it -- give \"sigil\" too). "
+                                              "Pick 1-3 that serve the moment; read your skill "
+                                              "'effects-and-ritual-visuals'."},
+                        "sigil": {"type": ["array", "string"], "items": {"type": "string"},
+                                  "description": "Only with fx \"sigil\": YOUR sigil -- the title of a grimoire page that holds it, or SVG path "
+                                                 "strings in a 0-100 box (\"M 50 10 L 50 90\", arcs, curves), one "
+                                                 "string per stroke -- the office draws each stroke in light, in "
+                                                 "order. Only for a spell you are casting; a sigil ON a floor, wall, "
+                                                 "altar or book goes into \"show\"/\"shot\" so the picture is drawn "
+                                                 "with it."},
+                        "grimoire": {"type": "string",
+                                     "description": "Show one of YOUR GRIMOIRE PAGES on screen instead of a picture: "
+                                                    "its title -- the page appears as a real book page, your sigil "
+                                                    "drawn in ink and your words written in. 3-6 seconds of your line."},
+                        "sigil_at": {"type": "string", "enum": ["top", "center", "bottom", "left", "right"],
+                                     "description": "Where in the frame your cast sigil appears (default center)."}},
                         "required": ["say", "show"]},
                 },
                 "caption": {"type": "string"},
@@ -258,11 +280,22 @@ def _clean_part(p: dict) -> dict | None:
     if not isinstance(p, dict) or not str(p.get("say") or "").strip():
         return None
     out = {"say": " ".join(str(p["say"]).split()), "show": " ".join(str(p.get("show") or "me").split())}
-    for k in ("shot", "plant", "move", "map", "fact"):   # map / fact (2026-10-17): her cards
+    for k in ("shot", "plant", "move", "map", "fact", "grimoire"):   # map / fact (10-17), grimoire page (10-19)
         if str(p.get(k) or "").strip():
             out[k] = " ".join(str(p[k]).split())
     if p.get("motion") is True:
         out["motion"] = True
+    fx = p.get("fx")                                 # 2026-10-19: her effects (fx.py)
+    fx = [fx] if isinstance(fx, str) else (fx if isinstance(fx, list) else [])
+    fx = [" ".join(str(x).split()) for x in fx if str(x).strip()]
+    if fx:
+        out["fx"] = fx
+    if p.get("sigil"):                               # 2026-10-19: her own sigil (SVG paths) or a grimoire page title
+        sg = p["sigil"]
+        out["sigil"] = (" ".join(sg.split()) if isinstance(sg, str) and sg.strip()[:1] not in "Mm"
+                        else [str(x) for x in (sg if isinstance(sg, list) else [sg]) if str(x).strip()])
+    if p.get("sigil_at"):
+        out["sigil_at"] = str(p["sigil_at"]).strip().lower()
     try:                                            # 2026-10-15: clip length, 2-5 s
         if 2 <= int(p.get("seconds")) <= 5:
             out["seconds"] = int(p["seconds"])
@@ -550,9 +583,44 @@ def check(agent_id: str, a: dict) -> tuple[dict | None, str]:
     for pn, p in enumerate(parts, 1):
         show = str(p.get("show") or "").strip()
         sc = {"narration": " ".join(str(p["say"]).split()), "_part": pn}   # _part: her numbering, for send-backs
+        if p.get("fx"):                             # 2026-10-19: her effects, checked by name before any card time
+            import fx as _fx
+            _names, _bad = _fx.parse(p["fx"])
+            if _bad:
+                return None, (f'Part {pn}: "{_bad}" is not an effect the office has. Use any of: '
+                              f'{", ".join(_fx.GRADES + _fx.LAYERS)}.')
+            if "sigil" in _names:
+                _sg = p.get("sigil")
+                if isinstance(_sg, str) and _sg.strip() and not _sg.strip()[:1] in "Mm":
+                    import grimoire as _gr                 # her sigil by its grimoire page title (2026-10-19)
+                    _byname = _gr.sigil_of(agent_id, _sg)
+                    if not _byname:
+                        return None, (f'Part {pn}: "sigil": "{_sg}" -- your grimoire has no page by that title with '
+                                      f'a sigil on it. grimoire action "list" shows your pages.')
+                    _sg = _byname
+                _paths, _badp = _fx.sigil_paths(_sg)
+                if _badp or not _paths:
+                    return None, (f'Part {pn}: fx "sigil" needs your own sigil in "sigil": SVG path strings in a '
+                                  f'0-100 box, each starting with M (e.g. "M 50 8 L 50 92"). '
+                                  + (f'This one is not a path: "{_badp}".' if _badp else "None was given."))
+                sc["sigil"] = _paths
+                sc["sigil_at"] = p.get("sigil_at") if p.get("sigil_at") in _fx.SIGIL_AT else "center"
+            if _names:
+                sc["fx"] = _names
         # MAP CARD (2026-10-17, Barry: plan step 1): "map": where the plant grows -> a Hyperframes card scene
         # (reel_builder._card_scene), no picture drawn, never her. The plant name rides as card_plant so the plant
         # engine and the plant label leave the card alone (the card shows the name itself).
+        if str(p.get("grimoire") or "").strip():       # 2026-10-19: one of her grimoire pages, shown as a book page
+            import grimoire as _gr
+            _page = _gr.find(agent_id, p["grimoire"])
+            if not _page:
+                return None, (f'Part {pn}: "grimoire": "{p["grimoire"]}" -- no page by that title in your grimoire. '
+                              f'grimoire action "list" shows your pages.')
+            sc["card"] = "grimoire"
+            sc["grimoire_page"] = {"title": _page["title"], "text": _page.get("text") or "",
+                                   "sigil": list(_page.get("sigil") or [])}
+            scenes.append(sc)
+            continue
         if str(p.get("map") or "").strip() or str(p.get("fact") or "").strip():
             if str(p.get("map") or "").strip():
                 sc["card"] = "map"

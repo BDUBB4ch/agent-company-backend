@@ -3089,7 +3089,11 @@ def _script_verbatim_reply(message: str) -> str | None:
                 f"Nothing was written.")
 
     # Whole-document ask: serve the full assembled script, any size, no model.
-    if _SCRIPT_WHOLE_RE.search(message) and not _SCRIPT_CREATIVE_RE.search(message):
+    # 2026-10-19 audit fix 2: "all of it" / "the whole thing" / "start to finish" alone no longer serve the script --
+    # a script word (script, episode, ep N, screenplay) has to be in the message too. "I watched the whole thing last
+    # night, loved it" used to dump 125K chars into the thread.
+    if _SCRIPT_WHOLE_RE.search(message) and _SCRIPT_MENTION_RE.search(message) \
+            and not _SCRIPT_CREATIVE_RE.search(message):
         scripts = script_index.list_scripts("MovieDirector")
         if not scripts:
             return None
@@ -4401,9 +4405,23 @@ async def chat(req: ChatRequest):
     # office line (not her words); her own words follow as each video queues. A draft in progress takes the GO DOOR.
     if req.agent_id == "ilnora" and not req.personal and not req.task:
         _ask = (req.message or "").strip()
+        # 2026-10-19 audit fix 6: the video word must follow the count word within two words ("another video",
+        # "2 new short videos"), and a question never queues -- "write a caption to go with the video" and
+        # "did you make a video today?" used to start a build.
         _m = re.search(r"\b(?:make|do|create|write|produce|get me|give me|need(?: you to make)?|want)\b[^.?!\n]{0,40}?"
-                       r"\b(a couple of|a few|another|one|an|a|1|2|two|3|three|4|four|5|five|some|more)\b[^.?!\n]{0,30}?"
+                       r"\b(a couple of|a few|another|one|an|a|1|2|two|3|three|4|four|5|five|some|more)\b(?:\s+\w+){0,2}?\s+"
                        r"\b(videos?|shorts?|longs?|long videos?|long forms?|vids?)\b", _ask, re.I)
+        if _ask.rstrip().endswith("?"):
+            _m = None
+        # 2026-10-19: a conditional is not an ask -- "i need to see it before i let her do a long 2 part video" started
+        # a Long. If the sentence holding the match says before / after / until / once / not yet / don't / wait, the
+        # message goes to her as a normal turn instead.
+        if _m:
+            _s0 = max(_ask.rfind(c, 0, _m.start()) for c in ".!?\n") + 1
+            _ends = [i for i in (_ask.find(c, _m.end()) for c in ".!?\n") if i != -1]
+            if re.search(r"\b(before|after|until|once|not yet|don'?t|do not|wait|later)\b",
+                         _ask[_s0:min(_ends) if _ends else len(_ask)], re.I):
+                _m = None
         try:
             import video_tool as _vt
             _has_draft = bool(_vt.load_draft("ilnora"))
@@ -4476,7 +4494,9 @@ async def chat(req: ChatRequest):
         # always-on fact. Runs BEFORE the brain block is built below, so the
         # rule binds from this very message onward. Conservative detection,
         # deduplicated, visible/deletable in the dashboard Brain tab.
-        _captured_rule = (None if req.task else
+        # 2026-10-19 audit fix 3: never from HOME -- "remember to eat something tonight" in a home window was
+        # becoming a permanent work rule. Same personal test the rest of the turn uses (computed later as _is_personal).
+        _captured_rule = (None if (req.task or ((req.personal or bool(req.reply_to)) and not req.office)) else
                           standing_rules.capture(agent["office_name"], req.message))
         if _captured_rule:
             print(f"[standing-rules] {agent['office_name']}: captured {req.message[:80]!r}")
@@ -4673,8 +4693,11 @@ async def chat(req: ChatRequest):
             pass
         elif not _reservation and (_explicit or (_praise and len(_m) <= 60)):
             try:
+                # 2026-10-19 audit fix 4: office doors log their lines as role 'assistant' (the model's own replies
+                # are 'agent'), so "perfect" right after "(Office) Ilnora is on it..." was saving the OFFICE line
+                # as her style. Only her own words can become her exemplar.
                 _prev = next((m["content"] for m in reversed(history)
-                              if m.get("role") != "user"), "")
+                              if m.get("role") not in ("user", "assistant")), "")
                 if _prev and _prev.strip():
                     _res = _save_style_exemplar(agent["office_name"], _prev,
                                                 req.agent_id == MOVIE_ID)
@@ -6739,9 +6762,13 @@ async def chat(req: ChatRequest):
                 and len((req.message or "").split()) <= 30
                 # his wording (2026-10-11): "make that video", "go ahead and make that", "you are a go on that",
                 # "you are a full go, on making the videos", "make the videos, please", "make the video now", "go"
-                and re.search(r"\b(?:go ahead|(?:a |full )go\b|go\b|make (?!sure)(?:it|that|this|them|those|the|"
-                              r"your|a |me )|making the videos?|send it|build (?:it|that|this|them)|do it|finish it|"
-                              r"queue it|get it (?:done|made|built))",
+                # 2026-10-19 audit fix 6: bare "go" and "do it" only as a whole sentence; "make the ..." only when
+                # the object is a video word or a bare pronoun -- "let's go over the plan before you make the next
+                # one" used to send the draft to the build queue.
+                and re.search(r"\b(?:go ahead|(?:a |full )go\b|(?:^|[.!,]\s*|\b(?:ok|okay|yes|yeah|alright)\s+)go(?:\s*[.!]|$)|"
+                              r"make (?!sure)(?:it|that|this|them|those)\b|make (?:the |your |a |me )?(?:videos?|shorts?|"
+                              r"longs?|vids?)\b|making the videos?|send it|build (?:it|that|this|them)|"
+                              r"(?:^|[.!,]\s*)do it(?: now)?(?:,? ?please)?(?:\s*[.!]|$)|finish it|queue it|get it (?:done|made|built))",
                               (req.message or "").strip(), re.I)):
             try:
                 import video_tool as _vt

@@ -1071,6 +1071,9 @@ ADMIN_TASK_TOOL = {
 import youtube_view as _youtube_view
 # 2026-10-07 (youtube_view.py): her channel, READ-ONLY -- stats + comments; replies go to the DESK, Barry posts.
 CHANNEL_STATS_TOOL = _youtube_view.CHANNEL_STATS_TOOL
+# 2026-10-19 (Barry: "i would love her to have her own grimoir"): her own book, written only by her. grimoire.py
+import grimoire as _grimoire  # noqa: E402
+GRIMOIRE_TOOL = _grimoire.GRIMOIRE_TOOL
 READ_COMMENTS_TOOL = _youtube_view.READ_COMMENTS_TOOL
 
 PUBMED_SEARCH_TOOL = {
@@ -2622,6 +2625,8 @@ async def _dispatch_tool_call_raw(name: str, args: dict, office_name: str = None
                                            str(a.get("risk_and_undo") or ""))
         except Exception as e:  # noqa: BLE001
             return {"error": str(e)}
+    elif name == "grimoire":
+        return _grimoire.run(office_name or "", args if isinstance(args, dict) else {})
     elif name == "video_draft":
         a = args if isinstance(args, dict) else {}
         _aid = (office_name or "").strip()
@@ -3614,6 +3619,11 @@ _FALLBACK_WRITE_TOOLS = {
     "run_command", "restart_backend", "check_updates", "run_security_scan",
     "accept_host_changes", "update_agent_scene", "change_my_picture", "make_art",
     "save_script_block", "delete_script_block", "onboard_agent_to_team", "install_skill",
+    # 2026-10-19 audit fix 1 (Barry: "Apply all six audit fixes"): these nine were missing, so the 9b backup could
+    # queue a video build, hold/release builds, relaunch the watchdog, propose an admin task, grant tools or push an
+    # Omnisend template. "The Ollama fallback gets NO write tools."
+    "video_draft", "make_video", "check_video", "product_video", "cad_generate",
+    "office_ops", "propose_admin_task", "design_email", "grant_tools",
 }
 _FALLBACK_NOTE = (
     "\n\n## BACKUP MODEL\nThe main model failed on this message, so a smaller backup "

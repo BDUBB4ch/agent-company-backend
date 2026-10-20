@@ -94,6 +94,7 @@ def _make(office_name: str, a: dict) -> dict:
     env = dict(os.environ)
     env["PATH"] = CAD_BIN + os.pathsep + env.get("PATH", "")
     env["CADGEN_BROWSER_PATH"] = EDGE
+    env.pop("__COMPAT_LAYER", None)     # 2026-10-19: Edge relaunches itself under it and the preview launch dies
     code, out = _run([CAD_PY, "-I", "model.py"], d, SCRIPT_TIMEOUT_S, env)
     step = os.path.join(d, "model.step")
     if code != 0 or not os.path.isfile(step):
