@@ -5,9 +5,9 @@ USE WHEN: sigil, sigils, sigil magic, sigilize, sigilise, sigilized, sigilised, 
 Every drawing sits in a 0-100 box; each dash line is one stroke, drawn in order, and one stroke may hold several M moves. "Faithful" means computed exactly from the stated rule or matching the standard form; "approximate" means a fair hand version whose historical shape may differ. Kamea grids run 10 to 90; in an n by n square the cell in row r, column c (counted from 0, top left) has its centre at x = 10 + (c + 0.5) x 80/n, y = 10 + (r + 0.5) x 80/n. Traced sigils share their grid's coordinates.
 
 ## The seven kameas in Agrippa
-Heinrich Cornelius Agrippa printed seven planetary "tables" in Book II, chapter 22 of Three Books of Occult Philosophy (full edition 1533; English by J.F., 1651): Saturn 3 by 3, Jupiter 4, Mars 5, Sun 6, Venus 7, Mercury 8, Moon 9. There is no 2 by 2 magic square, so Saturn starts at three. Saturn's is "a square of three, containing the particular numbers of nine, and in every line three every way, and through each Diameter making fifteen", the nine together making 45. Each square has four key numbers (side, cells, line sum, total), and over them Agrippa sets divine names "such names as fill up the numbers with an Intelligency to what is good, with a spirit to what is bad". He ties each table to a metal plate and the planet's condition (Saturn's "engraved on a plate of lead" under a fortunate Saturn makes a man "safe, and powerfull"), and prints three figures with each: the seal of the planet, the character of the intelligence, the character of the spirit.
+Heinrich Cornelius Agrippa printed seven planetary "tables" in Book II, chapter 22 of Three Books of Occult Philosophy (full edition 1533; English by J.F., 1651): Saturn 3 by 3, Jupiter 4, Mars 5, Sun 6, Venus 7, Mercury 8, Moon 9. Saturn's is "a square of three, containing the particular numbers of nine, and in every line three every way, and through each Diameter making fifteen", the nine together making 45. Each square has four key numbers (side, cells, line sum, total), and over them Agrippa sets divine names "such names as fill up the numbers with an Intelligency to what is good, with a spirit to what is bad". He ties each table to a plate and the planet's condition (Saturn's "engraved on a plate of lead" under a fortunate Saturn makes a man "safe, and powerfull"); the plate is not always the planet's metal (Jupiter's, Venus's and the Moon's are silver). With each table he prints the planet's seal and the characters of its intelligence and spirit; Venus adds its Intelligences, and the Moon has no plain intelligence but a spirit of spirits and an intelligence of intelligences. How these are drawn from the numbers he leaves to "the wise searcher".
 
-Below are the standard Agrippa arrangements, row by row from the top, every line checked. Some books print a square flipped or turned (one common Venus starts 46 15 40), which turns every sigil drawn on it the same way.
+Below are Agrippa's tables as printed in 1651, rows from the top; a script confirmed every line. A flipped or turned copy (a Venus starting 46 15 40 is his flipped top to bottom) turns every sigil drawn on it the same way.
 
 ### Saturn (side 3, cells 9, line 15, total 45)
 4 9 2 / 3 5 7 / 8 1 6. Agiel, intelligence, 45; Zazel, spirit, 45.
@@ -17,14 +17,14 @@ Drawing, Saturn grid (faithful):
 - `M 36.7 10 L 36.7 90 M 63.3 10 L 63.3 90`
 
 ### Jupiter (side 4, cells 16, line 34, total 136)
-4 14 15 1 / 9 7 6 12 / 5 11 10 8 / 16 2 3 13. Iophiel, intelligence, 136; Hismael, spirit, 136.
+4 14 15 1 / 9 7 6 12 / 5 11 10 8 / 16 2 3 13. Iophiel (Agrippa: Johphiel), intelligence, 136; Hismael, spirit, 136.
 Drawing, Jupiter grid (faithful):
 - `M 10 10 L 90 10 L 90 90 L 10 90 Z`
 - `M 10 30 L 90 30 M 10 50 L 90 50 M 10 70 L 90 70`
 - `M 30 10 L 30 90 M 50 10 L 50 90 M 70 10 L 70 90`
 
 ### Mars (side 5, cells 25, line 65, total 325)
-11 24 7 20 3 / 4 12 25 8 16 / 17 5 13 21 9 / 10 18 1 14 22 / 23 6 19 2 15. Graphiel, intelligence, 325; Bartzabel, spirit, 325.
+11 24 7 20 3 / 4 12 25 8 16 / 17 5 13 21 9 / 10 18 1 14 22 / 23 6 19 2 15. Graphiel, intelligence, 325; Bartzabel, spirit, 325. Agrippa writes Barzabel, his Hebrew as transcribed with an extra Aleph (326); Regardie's Beth Resh Tzaddi Beth Aleph Lamed makes 325.
 Drawing, Mars grid (faithful):
 - `M 10 10 L 90 10 L 90 90 L 10 90 Z`
 - `M 10 26 L 90 26 M 10 42 L 90 42 M 10 58 L 90 58 M 10 74 L 90 74`
@@ -38,7 +38,7 @@ Drawing, Sun grid (faithful):
 - `M 23.3 10 L 23.3 90 M 36.7 10 L 36.7 90 M 50 10 L 50 90 M 63.3 10 L 63.3 90 M 76.7 10 L 76.7 90`
 
 ### Venus (side 7, cells 49, line 175, total 1225)
-22 47 16 41 10 35 4 / 5 23 48 17 42 11 29 / 30 6 24 49 18 36 12 / 13 31 7 25 43 19 37 / 38 14 32 1 26 44 20 / 21 39 8 33 2 27 45 / 46 15 40 9 34 3 28. Hagiel, intelligence, 49; Kedemel, spirit, 175; Bne Seraphim, the intelligences.
+22 47 16 41 10 35 4 / 5 23 48 17 42 11 29 / 30 6 24 49 18 36 12 / 13 31 7 25 43 19 37 / 38 14 32 1 26 44 20 / 21 39 8 33 2 27 45 / 46 15 40 9 34 3 28. Hagiel, intelligence, 49; Kedemel, spirit, 175 (Agrippa misprints 157); Bne Seraphim, the intelligences (printed 1252).
 Drawing, Venus grid (faithful):
 - `M 10 10 L 90 10 L 90 90 L 10 90 Z`
 - `M 10 21.4 L 90 21.4 M 10 32.9 L 90 32.9 M 10 44.3 L 90 44.3 M 10 55.7 L 90 55.7 M 10 67.1 L 90 67.1 M 10 78.6 L 90 78.6`
@@ -52,22 +52,22 @@ Drawing, Mercury grid (faithful):
 - `M 20 10 L 20 90 M 30 10 L 30 90 M 40 10 L 40 90 M 50 10 L 50 90 M 60 10 L 60 90 M 70 10 L 70 90 M 80 10 L 80 90`
 
 ### Moon (side 9, cells 81, line 369, total 3321)
-37 78 29 70 21 62 13 54 5 / 6 38 79 30 71 22 63 14 46 / 47 7 39 80 31 72 23 55 15 / 16 48 8 40 81 32 64 24 56 / 57 17 49 9 41 73 33 65 25 / 26 58 18 50 1 42 74 34 66 / 67 27 59 10 51 2 43 75 35 / 36 68 19 60 11 52 3 44 76 / 77 28 69 20 61 12 53 4 45. Hod, 9; Elim, 81; Chasmodai, spirit, 369; for 3321, Malkah be-Tarshishim ve-ad be-Ruah Shehaqim (intelligence of intelligences) and Shad Barshemoth ha-Shartathan (spirit of spirits). Sources split the long name differently; one gives "Malka Betarshisim" alone as the intelligence.
+37 78 29 70 21 62 13 54 5 / 6 38 79 30 71 22 63 14 46 / 47 7 39 80 31 72 23 55 15 / 16 48 8 40 81 32 64 24 56 / 57 17 49 9 41 73 33 65 25 / 26 58 18 50 1 42 74 34 66 / 67 27 59 10 51 2 43 75 35 / 36 68 19 60 11 52 3 44 76 / 77 28 69 20 61 12 53 4 45. Hod, 9; Elim, 81; Hasmodai (Chasmodai), spirit, 369; for 3321, Schedbarschemoth Scharthathan, spirit of the spirits, and Malcha betharsism hed beruah schehalim, intelligence of the intelligences (as printed, this name does not reach 3321; unconfirmed). The online copy shows 45 as the top row's eighth number; it must be 54.
 Drawing, Moon grid (faithful):
 - `M 10 10 L 90 10 L 90 90 L 10 90 Z`
 - `M 10 18.9 L 90 18.9 M 10 27.8 L 90 27.8 M 10 36.7 L 90 36.7 M 10 45.6 L 90 45.6 M 10 54.4 L 90 54.4 M 10 63.3 L 90 63.3 M 10 72.2 L 90 72.2 M 10 81.1 L 90 81.1`
 - `M 18.9 10 L 18.9 90 M 27.8 10 L 27.8 90 M 36.7 10 L 36.7 90 M 45.6 10 L 45.6 90 M 54.4 10 L 54.4 90 M 63.3 10 L 63.3 90 M 72.2 10 L 72.2 90 M 81.1 10 L 81.1 90`
 
 ## The planetary seals
-Agrippa prints each seal but does not say how it was made; the Golden Dawn taught how to draw intelligence and spirit characters from the squares but did not explain the seals. The seals are symmetrical line figures built on the square's number pattern, not on a name, and the odd-sided squares are much harder to account for. No rule reproduces them line for line, so none is drawn here. To build one in their spirit, lay a mirrored figure of straight lines over the square that touches many cells.
+Agrippa does not say how the seals were made. Regardie's The Golden Dawn calls them symmetrical designs passing through every number; Frater A.P. (2006) shows that fails. After K. A. Nowotny (1949), he rebuilds the even seals (Jupiter, Sun, Mercury): count 1, 2, 3 across the rows from a corner, mark each cell whose number equals the count, join the marks, add end circles. He doubts his odd-square rules; for Saturn he suggests lines through 1-2-3, 4-5-6, 7-8-9. Seals follow the number pattern, not a name; none is drawn here, as the joining is not exact.
 
 ## The method: a name through the square
 1. Spell the name in Hebrew and number each letter: Aleph 1, Beth 2, Gimel 3, Daleth 4, Heh 5, Vav 6, Zayin 7, Cheth 8, Teth 9, Yod 10, Kaph 20, Lamed 30, Mem 40, Nun 50, Samekh 60, Ayin 70, Peh 80, Tzaddi 90, Qoph 100, Resh 200, Shin 300, Tav 400.
-2. If a number is bigger than the square's largest cell, drop zeros (the Aiq Bekar or "nine chambers" rule, where 1, 10 and 100 are one family): Resh 200 becomes 20 on Mars, Lamed 30 becomes 3 on Jupiter.
-3. Join the centres of those cells with straight lines, in spelling order.
-4. Mark the start with a small circle and the end with a short bar across the line. A Golden Dawn talisman text calls this "merely for convenience sake": start the first letter "with a small circle, ending the last letter with a short dash".
-5. Two letters in a row in the same cell get a small loop there (a modern convention for a doubled letter).
-Printed sigils were often drawn freehand and sometimes turned, so a trace may not match a book's picture. Below, a leg that runs back over an earlier leg is bowed slightly so it stays visible; every corner sits on the exact cell centre.
+2. If a number is bigger than the square's largest cell, drop zeros (Aiq Bekar; Agrippa's "nine Chambers", the first of which holds the unities Aleph 1, Yod 10, Qoph 100): Lamed 30 becomes 3 on Jupiter. Where two sizes fit, the maker chooses: in Regardie's How to Make and Use Talismans, Resh 200 is 2 in Bartzabel on Mars but 20 in another Mars name.
+3. Join the centres of those cells with one continuous line, in spelling order (Regardie).
+4. Mark the start with a small circle and the end with a short bar across the line. Regardie, tracing Gabriel on the rose, says: "Merely for convenience sake, start the first letter G with a small circle, ending the last letter L with a short dash."
+5. Two letters in a row in the same cell: Regardie gives no rule. Here they get a small loop (a modern habit, unconfirmed).
+Agrippa's printed characters often have circles at both ends and rounded turns, and some do not match a straight trace. Below, a leg that runs back over an earlier leg is bowed slightly so it stays visible; every corner sits on the exact cell centre.
 
 ## The seven intelligences, traced
 Agiel on Saturn. Aleph Gimel Yod Aleph Lamed = 1 + 3 + 10 + 1 + 30 = 45. Traced: 1, 3, 1, 1, 3 (Yod and Aleph share cell 1, so a loop). Faithful:
@@ -101,21 +101,18 @@ Tiriel on Mercury. Teth Yod Resh Yod Aleph Lamed = 9 + 10 + 200 + 10 + 1 + 30 = 
 - `M 15 75 L 75 25 L 45 65 Q 64 48 75 25 L 85 15 L 65 55`
 - `M 61.4 53.2 L 68.6 56.8`
 
-Malkah be-Tarshishim on the Moon (the short form one source calls the intelligence). Mem Lamed Kaph Aleph, Beth Tav Resh Shin Yod Shin Yod Mem = 1353, not a Moon number, so it is not the spelling behind the traditional character. Traced: 40, 30, 20, 1, 2, 40, 20, 30, 10, 30, 10, 40. 10, 20, 30 and 40 share one column, so the path crowds into a knot. Approximate:
-- `M 38.6 41.1 A 2.5 2.5 0 1 1 43.6 41.1 A 2.5 2.5 0 1 1 38.6 41.1`
-- `M 41.1 41.1 L 41.1 23.3 Q 36.1 54.4 41.1 85.6 L 50 58.9 L 58.9 67.8 L 41.1 41.1 Q 36.1 63.3 41.1 85.6 Q 31.1 54.4 41.1 23.3 Q 51.1 45.6 41.1 67.8 Q 26.1 45.6 41.1 23.3 Q 56.1 45.6 41.1 67.8 Q 56.1 54.4 41.1 41.1`
-- `M 45.1 41.1 L 37.1 41.1`
+No Moon intelligence is traced: Agrippa gives no plain one, and his intelligence of intelligences does not reach 3321 as printed.
 
 ## The spirits
-Traced the same way on their planet's square: Zazel (Zayin Aleph Zayin Lamed = 45) 7, 1, 7, 3; Hismael (Heh Samekh Mem Aleph Lamed = 136) 5, 6, 4, 1, 3; Bartzabel (Beth Resh Tzaddi Beth Aleph Lamed = 325) 2, 20, 9, 2, 1, 3; Kedemel (Qoph Daleth Mem Aleph Lamed = 175) 10, 4, 40, 1, 30; Taphthartharath (Tav Peh Tav Resh Tav Resh Tav = 2080) 40, 8, 40, 20, 40, 20, 40, a line shuttling between three cells, so Agrippa's richer printed character cannot come from straight tracing alone; Sorath (Samekh Vav Resh Tav = 666) 6, 6, 20, 4, with a loop at 6. One drawn in full:
+Traced the same way on their planet's square: Zazel (Zayin Aleph Zayin Lamed = 45) 7, 1, 7, 3, as Regardie traces it; Hismael (Heh Samekh Mem Aleph Lamed = 136) 5, 6, 4, 1, 3; Bartzabel (Beth Resh Tzaddi Beth Aleph Lamed = 325) 2, 2, 9, 2, 1, 3 in Regardie, or 2, 20, 9, 2, 1, 3 if Resh is taken as 20; Kedemel (Qoph Daleth Mem Aleph Lamed = 175) 10, 4, 40, 1, 30; Taphthartharath (Tav Peh Tav Resh Tav Resh Tav = 2080) 40, 8, 40, 20, 40, 20, 40, a line shuttling between three cells, as Agrippa prints it; Sorath (Samekh Vav Resh Tav = 666) 6, 6, 20, 4, with a loop at 6. One drawn in full:
 
-Chasmodai on the Moon: Cheth Shin Mem Vav Daleth Aleph Yod = 8 + 300 + 40 + 6 + 4 + 1 + 10 = 369; traced 8, 30, 40, 6, 4, 1, 10. Faithful:
+Chasmodai on the Moon: Cheth Shin Mem Vav Daleth Aleph Yod = 8 + 300 + 40 + 6 + 4 + 1 + 10 = 369; traced 8, 30, 40, 6, 4, 1, 10. Agrippa's transcribed Hebrew starts with Heh (366); Cheth makes 369. Faithful:
 - `M 29.7 41.1 A 2.5 2.5 0 1 1 34.7 41.1 A 2.5 2.5 0 1 1 29.7 41.1`
 - `M 32.2 41.1 L 41.1 23.3 L 41.1 41.1 L 14.4 23.3 L 76.7 85.6 Q 59.8 75.8 50 58.9 L 41.1 67.8`
 - `M 38.3 64.9 L 43.9 70.6`
 
 ## Planets and metals
-The planet signs come from Greco-Roman astronomy and took their present shapes in the sixteenth century; early forms show Saturn's scythe and Mars's spear, and Jupiter's sign grew from zeta, for Zeus. Alchemy used the same signs for the seven metals: Saturn lead, Jupiter tin, Mars iron, Sun gold, Venus copper, Mercury quicksilver, Moon silver. An ore is the metal's sign with a ring added.
+The planet signs grew from the gods' attributes and late Greek papyri and took their modern shapes in the sixteenth century, when crosses were added to Mercury, Venus, Jupiter and Saturn. Saturn's comes from kappa-rho, for Kronos (the scythe is his pictured attribute, not the sign's source); Jupiter's from zeta, for Zeus; Mars's is read as shield and spear (earliest form uncertain); Mercury's is the caduceus. Alchemy used the same signs for the seven metals: Saturn lead, Jupiter tin, Mars iron, Sun gold, Venus copper, Mercury quicksilver, Moon silver.
 
 Sun, circle with a centre point (faithful):
 - `M 20 50 A 30 30 0 1 1 80 50 A 30 30 0 1 1 20 50`
@@ -161,10 +158,10 @@ Sulfur, triangle on a cross (faithful):
 Salt, circle cut by a level line (faithful):
 - `M 18 50 A 32 32 0 1 1 82 50 A 32 32 0 1 1 18 50`
 - `M 18 50 L 82 50`
-Mercury the principle uses the planet sign. Most of these signs are older than Newton's manuscripts, which Unicode follows, and have many variants.
+Sulfur, salt and mercury are the three principles; mercury uses the planet sign. These match the Unicode glyphs; manuscripts vary.
 
 ## The zodiac and the twelve processes
-Pernety's Dictionnaire mytho-hermetique (1758) pairs each sign with a process: Aries calcination, Taurus congelation, Gemini fixation, Cancer solution, Leo digestion, Virgo distillation, Libra sublimation, Scorpio separation, Sagittarius ceration, Capricorn fermentation, Aquarius multiplication, Pisces projection. Other medieval schemes order them differently.
+Pernety's Dictionnaire mytho-hermetique (1758) pairs each sign with a process: Aries calcination, Taurus congelation, Gemini fixation, Cancer solution, Leo digestion, Virgo distillation, Libra sublimation, Scorpio separation, Sagittarius ceration, Capricorn fermentation, Aquarius multiplication, Pisces projection. It is one example of a twelve-step Great Work keyed to the signs as a cipher; other orderings are unconfirmed.
 
 Aries, ram's horns (approximate):
 - `M 50 90 L 50 40 C 50 10 14 10 18 34`
@@ -197,7 +194,7 @@ Pisces, two arcs back to back joined by a bar (faithful):
 In words: Cancer is a 6 and a 9 lying head to tail. Virgo is an m whose last leg curls back across itself in a loop. Scorpio is an m whose last leg ends in an upturned arrow. Capricorn is a v whose right arm runs on into a loop and a fish tail.
 
 ## The Rose Cross lamen wheel
-The Golden Dawn's Rose Cross lamen carries a rose of 22 petals, one Hebrew letter on each, in three rings: the three mother letters (Aleph, Mem, Shin: the elements) inner, the seven doubles (Beth, Gimel, Daleth, Kaph, Peh, Resh, Tav: the planets) in the middle, the twelve singles (the zodiac) outside. To make a sigil, spell the name in Hebrew and join its letters' petals in one continuous line, a small circle at the first letter and a short bar at the last. The Order is said to have drawn its angel and intelligence sigils this way. The petal order follows the painted lamen and is not reproduced here.
+The Golden Dawn's Rose Cross lamen, called in its rituals the Key of Sigils and Rituals, carries a rose whose petals stand for the 22 Hebrew letters. Regardie's Rose of Twenty-Two Petals sets them in three rings: the three mothers (Aleph, Mem, Shin: fire, water, air) inner, the seven doubles (Beth, Gimel, Daleth, Kaph, Peh, Resh, Tav: the planets) middle, the twelve singles (the zodiac) outside. To make a sigil, join the name's petals in one line, a small circle at the first letter and a short bar at the last, as Regardie does for Gabriel; he offers the rose for any name. That the Order drew its angel sigils this way is unconfirmed. The petal order is not reproduced here.
 Drawing, the rose as rings of 3, 7 and 12 cells (approximate; petals shown as cells, letters not placed):
 - `M 38 50 A 12 12 0 1 1 62 50 A 12 12 0 1 1 38 50`
 - `M 24 50 A 26 26 0 1 1 76 50 A 26 26 0 1 1 24 50`
@@ -207,9 +204,9 @@ Drawing, the rose as rings of 3, 7 and 12 cells (approximate; petals shown as ce
 - `M 50 24 L 50 6 M 63 27.5 L 72 11.9 M 72.5 37 L 88.1 28 M 76 50 L 94 50 M 72.5 63 L 88.1 72 M 63 72.5 L 72 88.1 M 50 76 L 50 94 M 37 72.5 L 28 88.1 M 27.5 63 L 11.9 72 M 24 50 L 6 50 M 27.5 37 L 11.9 28 M 37 27.5 L 28 11.9`
 
 ## Spare's method from The Book of Pleasure
-Austin Osman Spare self-published The Book of Pleasure (Self-Love): The Psychology of Ecstasy in 1913; its sigil chapter is headed "Sigils. Belief with Protection". A sigil gives desire a form made from the letters of a sentence, "a simple form which can be easily visualised at will, and has not too much pictorial relation to the desire". Write the wish as a sentence in capitals; strike every letter that has already appeared; combine what remains into one figure, letters overlapping and sharing strokes. Once made, the wish is to be forgotten, thought of only at the magical moment. Peter J. Carroll's Liber Null (1978) carried the method into chaos magic.
+Austin Osman Spare self-published The Book of Pleasure (Self-Love): The Psychology of Ecstasy in 1913; its chapter on making them is headed "Sigils. Belief with Protection". "Sigils are made by combining the letters of the alphabet simplified", aiming at "a simple form which can be easily visualised at will, and has not too much pictorial relation to the desire". His example, "This my wish to obtain the strength of a tiger", is sigilized in parts (This my wish; To obtain; The strength of a Tiger), then "Combined as one Sigil" and simplified. In the chapter before, a sigil that comes to mind at any time but the magical one should be repressed, "a deliberate striving to forget it". Capitals and striking repeated letters are not in Spare's text; that is the later reading, as Frater U.D. sets it out. Peter J. Carroll's Liber Null (1978), heavily influenced by Spare, carried his ideas into chaos magic.
 
-Worked example, Spare's own sentence: THIS MY WISH TO OBTAIN THE STRENGTH OF A TIGER. Keeping the first of each letter leaves 15: T H I S M Y W O B A N E R G F. One fusion: circle O, with a spur on the right also G; centre upright I; top bar T; a V under the bar Y; a left upright tied to the centre by a cross bar H; that upright with top arm, cross bar and bottom arm E and F; a diagonal from its top to the centre N; two bowls on the right B, a leg under the upper bowl R; an inverted V with a bar A; M top right, W bottom left, S bottom right.
+Worked example, Spare's sentence with repeated letters struck (Frater U.D.'s way): THIS MY WISH TO OBTAIN THE STRENGTH OF A TIGER. Keeping the first of each letter leaves 15: T H I S M Y W O B A N E R G F. One fusion: circle O, with a spur on the right also G; centre upright I; top bar T; a V under the bar Y; a left upright tied to the centre by a cross bar H; that upright with top arm, cross bar and bottom arm E and F; a diagonal from its top to the centre N; two bowls on the right B, a leg under the upper bowl R; an inverted V with a bar A; M top right, W bottom left, S bottom right.
 Drawing, THIS MY WISH TO OBTAIN THE STRENGTH OF A TIGER (approximate; one combination of the letters, not Spare's printed glyph):
 - `M 4 50 A 46 46 0 1 1 96 50 A 46 46 0 1 1 4 50`
 - `M 50 8 L 50 74`
@@ -232,12 +229,12 @@ Drawing, THIS MY WISH TO OBTAIN THE STRENGTH OF A TIGER (approximate; one combin
 
 ## How to make your own sigil
 From a magic square:
-1. Choose the planet's square that fits the work; Agrippa gives each table its own uses and metal.
-2. Write the name in Hebrew letters and look up their numbers. Without Hebrew, a modern stand-in is A to I as 1 to 9, J to R as 1 to 9, S to Z as 1 to 8.
+1. Choose the planet's square that fits the work; Agrippa gives each table its own uses and plate.
+2. Write the name in Hebrew letters and look up their numbers. Without Hebrew, Agrippa (Book II, ch. 20) numbers Latin A to I 1 to 9, K to S 10 to 90, T 100, V 200, X 300, Y 400, Z 500, consonant J 600, consonant V 700, HI 800, HV 900.
 3. Shrink any number too big for the square by dropping zeros.
 4. Find each number on the square and join the cells in order with straight lines.
 5. Small circle at the start, short bar across the end, a loop where a letter repeats in the same cell.
-6. Lift the line off the grid; it may be turned or smoothed, as the old makers did.
+6. Lift the line off the grid; its turns may be rounded, as in Agrippa's printed characters.
 
 From the rose:
 1. Spell the name in Hebrew.
@@ -245,40 +242,24 @@ From the rose:
 3. Join them in one unbroken line, small circle at the first, short bar at the last.
 
 From a sentence (Spare):
-1. Write the wish as one plain sentence in capitals, as Spare did: THIS MY WISH TO ...
-2. Cross out every letter that has appeared before.
+1. Write the wish as one plain sentence, as Spare did: This my wish to ...
+2. Either sigilize it phrase by phrase and combine the parts, as Spare's book does, or write it in capitals and cross out every letter that has appeared before (the later way).
 3. Draw the remaining letters as one figure sharing uprights, bars and curves, until it no longer reads as words.
 4. Simplify until it can be seen with the eyes shut.
-5. Fix it in the mind at a moment of full attention, then forget it, as Spare asks.
+5. Hold only the sigil in mind at a time of exhaustion or emptiness, Spare's magical time; at all other times strive to forget it, as Spare asks.
 
 ## Sources
-All pages were read through search-engine extracts; direct page fetches failed in this session.
-- https://quod.lib.umich.edu/e/eebo/A26565.0001.001/1:16.22?rgn=div2&view=fulltext
-- https://www.esotericarchives.com/agrippa/op2.htm
-- https://en.wikipedia.org/wiki/Three_Books_of_Occult_Philosophy
-- https://www.math.mcgill.ca/styan/Beamer1-18jan12-opt.pdf
-- https://plentifulearth.com/spiritual-beginners/planetary-squares/
-- https://plentifulearth.com/planetary-sigil-maker/
-- https://occult.live/index.php?mobileaction=toggle_view_desktop&title=Planetary_intelligence
-- https://planetarysigils.com/moon
-- https://sourcelibrary.org/book/barrett-magus-plate-1-magic-squares
-- https://www.rosae-crucis.net/Drawing%20Planetary%20Seals%20from%20the%20Kameas.pdf
+- https://www.esotericarchives.com/agrippa/agripp2b.htm
+- https://www.esotericarchives.com/agrippa/agripp3c.htm
 - https://www.mr-kaplan.com/Library/Misc/How%20to%20Make%20and%20Use%20Talismans.html
-- https://thelema.org/forum/post/84348
+- https://www.rosae-crucis.net/Drawing%20Planetary%20Seals%20from%20the%20Kameas.pdf
+- https://archive.org/download/austin-osman-spare-ethos-austin-osman-spare/The%20book%20of%20pleasure%20%28self-love%29-%20the%20psychology%20of%20ecstasy%20-%20Austin%20Osman%20Spare_djvu.txt
+- http://www.chaosmatrix.org/library/chaos/spare/aosig.html
+- https://en.wikipedia.org/wiki/Three_Books_of_Occult_Philosophy
 - https://en.wikipedia.org/wiki/Gematria
 - https://en.wikipedia.org/wiki/Sigil
-- https://webcf.waybackmachine.org/web/20220417121903/https://en.wikipedia.org/wiki/Planet_symbols
-- https://en.wikipedia.org/wiki/Alchemical_Symbols_(Unicode_block)
-- https://www.unicode.org/L2/L2023/23069r3-alchemical-block-design.pdf
-- https://en.wikipedia.org/wiki/Alchemical_symbol
-- https://thelema.org/forum/post/61604
-- https://toarumajutsunoindex.fandom.com/wiki/User_blog:Inept_Wiki_User/Exploring_Bases:_Rose_Cross_Lamen
-- https://museumofwitchcraftandmagic.co.uk/object/rose-cross-lamen/
-- https://groups.google.com/g/alt.magick/c/l1ZFTk_WZ2g
-- https://hermetic.com/spare/pleasure
-- https://hermetic.com/chaos/austin-osman-spare-and-his-theory-of-sigils
 - https://en.wikipedia.org/wiki/The_Book_of_Pleasure
-- https://laughingsocrates.blogspot.com/2017/06/austin-osman-spare-and-his-amazing_21.html
-- http://www.chaosmatrix.org/library/chaos/spare/aosig.html
-- https://sacred-texts.com/eso/topy/black3.htm
-- https://legrandgrimoire.com/guides/sigils-alchemy/chaos-magic-sigils-the-austin-osman-spare-method/
+- https://en.wikipedia.org/wiki/Peter_J._Carroll
+- https://en.wikipedia.org/wiki/Planet_symbols
+- https://en.wikipedia.org/wiki/Alchemical_symbol
+- https://en.wikipedia.org/wiki/Rose_Cross

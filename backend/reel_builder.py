@@ -557,11 +557,12 @@ def _card_project(scene: dict, seconds: float, fmt: dict, d: str, idx: int) -> s
         pg = scene.get("grimoire_page") or {}
         body = str(pg.get("text") or "").strip()
         n = len(body)
-        bpx = ((40 if n <= 260 else 34 if n <= 520 else 28 if n <= 900 else 23) if tall else
-               (34 if n <= 260 else 28 if n <= 520 else 23 if n <= 900 else 19))
+        # a pen script has a small x-height: sized up so a phone can read it (Barry: "nicely written in a cursive script")
+        bpx = ((58 if n <= 260 else 50 if n <= 520 else 42 if n <= 900 else 35) if tall else
+               (46 if n <= 260 else 40 if n <= 520 else 34 if n <= 900 else 28))
         body_html = "<br>".join(_html.escape(" ".join(line.split()))
                                 for line in re.split(r"\n+|(?<=[.!?])\s+", body) if line.strip())
-        page = (page.replace("{{TITLE_PX}}", "64" if tall else "54").replace("{{BODY_PX}}", str(bpx))
+        page = (page.replace("{{TITLE_PX}}", "84" if tall else "68").replace("{{BODY_PX}}", str(bpx))
                 .replace("{{TITLE}}", _html.escape(str(pg.get("title") or "")))
                 .replace("{{TEXT}}", body_html)
                 .replace("{{SIGIL_PATHS}}", json.dumps([str(x) for x in (pg.get("sigil") or [])])))

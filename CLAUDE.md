@@ -118,6 +118,11 @@ Teach panel. Character pictures: `drop/Characters/<Name>/<view>/`.
   `scripts/make_world_svg.py`), never her face or a drawn plant; render failure -> ffmpeg text card. Her doc `cards.md`.
 - **Product spots** (`product_video.py`, Vivian) and **CAD parts** (`cad_tool.py`, Sophie: import-allowlisted build123d
   script -> STEP/STL/PNG) both land on his DESK via `agent_files.register_file`; nothing publishes or prints.
+- **Effects** (`fx.py`, `cards/fx_overlay.html`, 2026-10-19): a part's `"fx"` -- grades + light layers (lightning, sparks,
+  embers, smoke, her own sigil), CPU only. No purple except her sigil lines; light falls on lit surfaces; no ready-made
+  sigils. **Grimoire** (`grimoire.py`, tool granted to ilnora): her own book (empty until she writes), sigils reusable by
+  page title, `"grimoire": "<title>"` shows a page (`cards/grimoire.html`, Pinyon Script OFL -- design LOCKED by Barry).
+  Hyperframes/cadgen launches pop `__COMPAT_LAYER` (Edge relaunches itself under it).
 - **HOME ONLY**: a `## ... HOME ONLY ...` section in `personalities/<office>.md` is cut whole at work
   (`main._without_home`); his intimate additions live there. Test: `scripts/test_home_only_strip_2026_10_17.py`.
 - **Draft workspace** (`video_tool.draft`): her `video_draft` tool, script in `data/video_queue/draft_<agent>.json`, a few
@@ -214,6 +219,7 @@ are Elliot's; EP2+ Elliot has creative input.
 - Logs: `data/bonsai_server.log` (check `prompt eval time` first when slow),
   `data/bonsai_events.log`, `data/jobs.log`, `data/traces.jsonl`, `data/watchdog.log`.
 
+- **Cloud credit: $83 left (2026-10-20), expires 2026-11-05 -- ask Barry before any cloud session.**
 - **Cloud repo (2026-10-19):** https://github.com/BDUBB4ch/agent-company-backend (private, his). Its `main` is the local
   orphan branch `cloud` = CODE ONLY (see .gitignore's 2026-10-19 block); local `master` holds everything. Cloud sessions start
   from it; nothing of his or the agents' goes up. Refresh: rebuild `cloud` via a temp index, push `cloud:main`.

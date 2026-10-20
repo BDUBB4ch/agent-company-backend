@@ -5,83 +5,85 @@ Study material, not a pattern book: what witches drew, wore and used, so a new s
 
 ## 1. Marks on the body
 
-The early modern witch was found by a mark. English and Scottish searchers looked for the Devil's mark, pressed into the skin at the pact, and the witch's teat, where a familiar sucked. A handbook following Michael Dalton's Country Justice (1618) describes the teat and "other marks" such as blue or red spots or hollowed flesh, insensible, "being pricked will not bleed", often in secret places. The pricker drove a long pin in; no pain and no blood was proof. Moles, scars and birthmarks all qualified. Searches peaked in East Anglia in 1645-1647 under Matthew Hopkins.
+The early modern witch was found by a mark: the Devil's mark, given at the pact, and the witch's teat, where a familiar sucked. Dalton's Country Justice (first 1618; 1690 edition read) puts the teat "in some secret place, where he sucketh them" and describes the Devil's marks: "a blew spot or red spot, like a flea-biting", or flesh "sunk in and hollow", "insensible", "being pricked will not bleed". Moles, warts, birthmarks and extra nipples qualified; prickers drove pins in until an insensible spot was found. Hopkins and John Stearne hunted East Anglia 1644-1647 with women prickers.
 
-The mark is a late idea. The Malleus Maleficarum (Heinrich Kramer, 1486) is built on the pact and the harm done and says little about marks. Nicolas Remy's Daemonolatreia (Lyon, 1595), drawn from Lorraine trials in which some 800-900 were condemned, makes the insensible mark standard. Francesco Maria Guazzo's Compendium Maleficarum (1608) lists the Devil's marking among the steps of the pact.
+The mark is a late idea: the term appears in the 16th century, peaks around 1645, is largely gone by 1700. Guazzo's Compendium Maleficarum (Milan, 1608) makes it the tenth of eleven heads of the pact, branded "as fugitive slaves are branded"; it may look like a hare's footprint or the print of a toad, spider, dog or dormouse, on men often the eyelids, armpit, lips, shoulder or buttocks, on women the breasts or private parts.
 
-Hopkins's Discovery of Witches (1647) tells how a Manningtree woman was searched by women who knew "the Devills marks" and found to have three teats "which honest women have not". Kept awake, she named her imps: Holt, Jarmara ("a fat Spaniel without any legs at all"), Vinegar Tom ("like a long-legg'd Greyhound, with an head like an Oxe"), Sack and Sugar, Newes. The pamphlet's woodcut shows two witches with their familiars, each labelled by name, among names such as Pyewackett that "no mortall could invent".
+Hopkins's Discovery of Witches (1647): a Manningtree woman, searched by women "who had for many yeares knowne the Devills marks", was found "to have three teats about her, which honest women have not". Kept from sleep, she named her imps: Holt (a white kitten), Jarmara (a fat legless spaniel), Vinegar Tom (a long-legged greyhound with an ox's head), Sack and Sugar (a black rabbit), Newes (a polecat); other names, Elemanzer, Pyewacket, Peckin the Crown, Grizzel, Greedigut, "no mortall could invent".
 
-For a sigil maker: in the records the witch's sign is not drawn by her. It is done to her body, small, hidden, given at the pact, described by feeling, place and colour, almost never by shape. No faithful drawing exists.
+For a sigil maker: the witch's mark is not drawn by her. It is done to her body, small, hidden, described by feeling, place and colour, or as an animal print. No faithful drawing exists.
 
 ## 2. Confessions: images, charms, the kiss, the signature
 
-North Berwick, 1590-1591. Newes from Scotland (1591) opens with Geillis Duncan, a servant who healed. Tortured and searched, the mark was found on her throat, and she confessed. She named Agnes Sampson, the "wise wife of Keith", healer and midwife, who after torture before James VI confessed to meeting the Devil at North Berwick kirk, where the company kissed his buttocks in sign of duty. Sampson told of hanging a black toad by the heels to gather its venom in an oyster shell, seeking linen the king had worn to work on, and christening a cat, binding a dead man's joints to it and throwing it into the sea at Leith to raise the storm against the king's ships. The trial records add a wax image of the king. The pamphlet was royal propaganda and the confessions coerced: evidence of belief, not practice.
+North Berwick, 1590-1591. Newes from Scotland (1591) opens with Geillis Duncan, a healing servant, tortured by her master with the pilliwinks and a rope; "the enemies marke" was found "in her fore crag or foreparte of her throate". The pamphlet's Agnes Tompson (Agnes Sampson, the Wise Wife of Keith) confessed that the Devil, as a man in North Berwick kirk, had them kiss his buttocks "in signe of duetye to him"; that she hung a black toad by the heels three days and caught its venom in an oyster shell; sought linen the king had worn; and "tooke a Cat and christened it", bound parts of a dead man to it and had it cast into the sea before Leith, raising a storm. Other records give an image of James VI handed to the Devil for his destruction (material not stated in the source read). Tortured confessions: evidence of belief, not practice.
 
-Pendle, 1612. Thomas Potts's Wonderfull Discoverie of Witches (1613), commissioned by the judges, gives the clearest English recipe for image magic, from Elizabeth Southerns, "Old Demdike": make a picture of clay like the person, dry it thoroughly, prick a thorn or pin into the part to be ill, burn that part to waste it, burn the rest to kill. Demdike and Anne Whittle ("Old Chattox") accused each other of clay images; the family's testimony includes teeth taken from skulls in Newchurch churchyard. Their familiars were Tibb, Fancie and the dog Dandy. Ten were hanged.
+Pendle, 1612. Potts's Wonderfull Discoverie of Witches (1613), written on the judges' instruction, gives Old Demdike's recipe: a clay picture "like vnto the shape of the person whom they meane to kill, & dry it thorowly"; prick "a Thorne or Pinne" into the part to sicken; burn that part to waste it, burn the rest and "the body shall die". James Device said Old Chattox took three scalps from graves at the new church in Pendle and eight teeth, giving four to Demdike. Familiars: Demdike's Tibb, Chattox's Fancie, James Device's dog Dandy. Ten were hanged.
 
-The pact signature. At Loudun Urbain Grandier was burned in August 1634. A Latin pact apparently signed by him survives in the Bibliothèque nationale; one document is written backwards with abbreviations, and the pact was said to bear Grandier's signature on one side and those of Asmodeus, Leviathan and other devils on the other. Grandier denied it. The devils' scrawled monograms are not drawn; the point is that a demonic signature was a personal mark set beside a human name, like a seal.
+The pact signature. Urbain Grandier was burned at Loudun on 18 August 1634. At his trial came a Latin pact apparently signed by him and a second, written backwards with strange symbols, signed by Satan, Beelzebub, Lucifer, Elimi, Leviathan and Astaroth. Forged or coerced is unknown. A demonic signature was a personal mark beside a human name, like a seal.
 
-The pact rite pictured. Guazzo's woodcuts show the new witch denying the faith, trampling the cross, being rebaptised, giving the Devil a piece of clothing, swearing inside a circle drawn on the ground, having her name written in his black book, and receiving his mark. Kramer treats "instruments of witchcraft" as objects hidden in a bed or under a threshold, to be found and burned to break the harm.
+The pact rite in Guazzo's eleven heads: deny the faith; mock baptism, new name, new godparents; give the Devil a piece of clothing; swear inside a circle traced on the ground; be struck from the book of life and written in the book of death; promise sacrifices; yearly gifts, valid only if black; his mark; vows to trample relics and keep silent.
 
 ## 3. The pact grimoires
 
-The Grimorium Verum claims publication by "Alibeck the Egyptian" at Memphis in 1517. Waite (1911) called the date fraudulent and placed it mid-18th century; catalogues give about 1750; Joseph Peterson edits it from British Library Lansdowne 1202. Its hierarchy: Lucifer emperor, Beelzebuth prince, Astaroth grand duke, inferior spirits below, each superior with a character. A figure is marked on virgin parchment in your own blood or a male sea-turtle's, or engraved on a stone; a man writes it on the day of Mars, a woman on any other day.
+The Grimorium Verum says "A Memphis, chez Alibeck l'Egyptien, 1517". Waite (1911) called the date "undeniably fraudulent"; it probably first appeared in the mid-18th century (Peterson's edition rests on Wellcome MS 983, about 1709). Three powers, Lucifer, Beelzebuth, Astaroth: "Imperator, princeps, comes" (emperor, prince, count), ruling Europe and Asia, Africa, America. Their character is engraved reversed; a man carries it in his right pocket, written in his own blood or a sea turtle's, the first letters of his name and surname in its two half-circles, or engraved in an emerald or ruby; a woman wears it on her left side between the breasts like a reliquary; both write or engrave it on the day and hour of Mars. Spirit characters: blood from the pricked little finger, on virgin parchment, Mars's hour, moon waxing.
 
-The Grand Grimoire, or Red Dragon, dates itself 1421, 1521 or 1522. Owen Davies suggests a first edition around 1702 and a Bibliothèque bleue version around 1750; the familiar text is late 18th or early 19th century. Its spirit is Lucifuge Rofocale, Lucifer's prime minister and keeper of treasure. The pact section needs a blasting rod, to which the author gives all the power, and a triangle of pacts to stand in.
+The Grand Grimoire, or Red Dragon, dates itself 1421, 1521 or 1522. Owen Davies suggests a first edition around 1702 and a Bibliothèque bleue version around 1750; Peterson puts the text not much before the early 1800s. Its spirit is Lucifuge Rofocale, "premier ministre infernal", given power by Lucifer over the world's treasures. The blasting rod: wild hazel that has never borne fruit, forked, nineteen and a half inches, cut at sunrise, its fork tips shod with steel from the sacrificial blade and magnetised with a lodestone. The operator draws the triangle of pacts with a bloodstone (hematite), candles either side, and stands in it with the rod. The pact, in his own hand on virgin parchment, signed in his own blood: "I promise the grand Lucifuge to reward him in twenty years for all the treasures he will give me."
 
-Not drawn: the characters of Lucifer, Beelzebuth, Astaroth and Lucifuge. Their printed forms differ between editions and no reliable plate was reached. In words: each is one connected character, a signature not a picture, of straight strokes, small circles, crosses and hooks, copied exactly onto parchment as the spirit's name in ink.
+Not drawn: the characters of Lucifer, Beelzebuth, Astaroth and Lucifuge. Peterson notes the three powers' character is missing from the Alibeck printing and later editions invented figures; no reliable plate was reached. Each is a signature, not a picture.
 
-The Grimoire of Pope Honorius is falsely given to Honorius III; it is said to have appeared in 1629, a 1736 French manuscript survives, and it is linked to the Affair of the Poisons (1679). It joins conjurations of the demon kings of the four directions and seven days to a book of simple charms; the 1736 operations use a cat's or fox's skin, blood, a mouse offered to the spirit, and incense. Later editions are reported to open with killing a black cock; not verified here.
+The Grimoire of Pope Honorius is falsely given to Honorius III; its first edition is said to be 1629. Printed editions ("Rome 1670", "Rome 1800") join conjurations of the kings of East, South, West and North (Maimon, King of the East) to weekday conjurations and a book of secrets. Monday: a circle in charcoal and blessed chalk, "I forbid thee, Lucifer ... to enter this circle" written round it, a mouse given to the spirit. The 1800 edition kills a black cock after sunrise and keeps the first feather of its left wing. A 1736 manuscript (Harvard) makes characters on fox or cat skin in blood, with incense.
 
 ## 4. The Theban "witches' alphabet"
 
-A one-for-one cipher of the Latin alphabet, first printed in Trithemius's Polygraphia (1518), credited to Honorius of Thebes via Pietro d'Abano, in whose writings it is not found; Agrippa reprinted it (De Occulta Philosophia III.29). Twentieth-century witches used it to write names, spells and Books of Shadows out of casual sight; "witches' alphabet" is that modern name.
+A one-for-one cipher of the Latin alphabet, first printed in Trithemius's Polygraphia (1518), credited to Honorius of Thebes on Pietro d'Abano's word, though it is not known in any writing attributed to d'Abano; Agrippa reprinted it (De Occulta Philosophia, 1533, III.29). Modern witches use it to hide names, spells and Books of Shadows, and on athame handles; "witches' alphabet" is the modern name. Not drawn.
 
 ## 5. Gardnerian and later Wiccan symbols
 
-Gerald Gardner compiled the Book of Shadows in the late 1940s or early 1950s for his Bricket Wood coven; researchers conclude he composed it. Doreen Valiente, initiated 1953, rewrote much of it.
+Gardner's first draft, Ye Bok of ye Art Magical, probably 1946-1949, became the Book of Shadows in 1949. Doreen Valiente, initiated at Midsummer 1953, found Crowley, Aradia, Key of Solomon and Masonic material in it and rewrote much. Dated quotations are from the Gardnerian Book of Shadows at sacred-texts.
 
-The circle. The 1949 text: drawn before every rite with a consecrated sword or athame, usually nine feet across (1961: chalk, a cord looped at four feet six inches). The athame goes into water with an exorcism, into salt with a blessing; salt goes into water; the circle is sprinkled and censed. At East, South, West and North the priest draws an invoking pentagram in the air and calls the Mighty Ones. Approximate (circle and quarter stations, East right):
+The circle (1949): "The only circle that matters is the one drawn before every ceremony with either a duly consecrated Magic Sword or an Athame", "usually nine feet in diameter", two more circles six inches apart outside it with names of power between, traced by a cord looped at four and a half feet, "ever leave open a door towards the North". Water exorcised and salt blessed with the athame, salt put in water, all sprinkled; the Mighty Ones of East, South, West and North summoned and a pentagram drawn, "the first stroke being from the top down to the left". 1961: chalk, a string four foot six long. Approximate (circle and quarter stations, East right):
 - `M 50 10 A 40 40 0 1 1 50 90 A 40 40 0 1 1 50 10`
 - `M 86 50 L 94 50`
 - `M 50 86 L 50 94`
 - `M 14 50 L 6 50`
 - `M 50 14 L 50 6`
 
-The altar pentacle consecrates tools, blesses food and summons; Gardner advised one of wax or ink that could be hidden or destroyed. Around its central pentagram, copies carry small signs for the degrees, scourge, kiss and Horned God; those vary and are not drawn. Central figure, faithful:
+The pentacle: tools are consecrated on it, cakes presented on it; at initiation "the pentacles ... are for the purpose of calling up appropriate Spirits". 1953: "a platter with the signs drawn into the same in ink, showing a pentacle". Old Laws (1961): "Let the Pentacles be of wax, so they may be broken at once", and "Write the names and signs on them in ink before consecrating them and wash it off immediately after." Small signs around the star on later copies: unconfirmed, not drawn. Central figure, faithful to the common Wiccan form, a pentagram within a circle (point up, as the 1949 stroke order implies):
 - `M 50 8 A 42 42 0 1 1 50 92 A 42 42 0 1 1 50 8`
 - `M 50 8 L 74.7 84 L 10.1 37 L 89.9 37 L 25.3 84 L 50 8`
 
-Degree signs, as in Gardnerian practice and the Farrars' A Witches' Bible: first a point-down triangle; second a point-down pentagram; third a point-up pentagram under a point-up triangle. Sources disagree on their early history: a modern standard, not an ancient one.
+Degree signs, from the Book of Shadows: first, "the triple sign", a point-down triangle traced on the body (genitals, right breast, left breast, genitals); second, oil, wine and kisses on womb, right breast, left hip, right hip, left breast, womb, "thus tracing a point-down pentacle"; third, a diagram of "the point-up triangle above the pentacle".
 
-First degree, faithful:
-- `M 18 22 L 82 22 L 50 80 Z`
+First degree, faithful (equilateral):
+- `M 18 22 L 82 22 L 50 77.4 Z`
 
 Second degree, faithful:
 - `M 50 90 L 73.5 17.6 L 12 62.4 L 88 62.4 L 26.5 17.6 L 50 90`
 
-Third degree, faithful in arrangement:
+Third degree, approximate: the source gives a point-up triangle above the pentacle but not which way the pentacle points; drawn point-up, as commonly shown:
 - `M 50 5 L 64 21 L 36 21 Z`
 - `M 50 26 L 70 87.5 L 17.7 49.5 L 82.3 49.5 L 30 87.5 L 50 26`
 
-The athame: Witchcraft Today (1954) calls it a "black-hilted knife, with magic signs on the hilt". The black handle and the word ("arthame") come from versions of the Key of Solomon, where the black-hilted knife draws the circle and strikes terror into spirits. The hilt signs are a set of small characters in the Book of Shadows; no reliable copy was reached, so not drawn.
+The athame: "the true Witch's weapon" with "all the powers of the Magic Sword"; the 1949 circle is traced "with the Sword, or the knife with the black hilt"; the Old Laws: "Let the colour of the hilts tell which is which" instead of engraving. In the Key of Solomon the black-hilted knife is "for making the circle, wherewith to strike terror and fear into the spirits", made on Saturn's day and hour, dipped in a cat's blood and hemlock juice, characters and names written from point to hilt. "Arthame" comes from a Bibliothèque de l'Arsenal copy of the Key, where it names the quill knife. Gardnerian hilt signs: no reliable copy reached, not drawn.
 
-The triple moon: waxing crescent, full disc, waning crescent, the Goddess as maiden, mother, crone. The triad comes through Robert Graves's The White Goddess (1948) and earlier Robert Briffault (1927); Starhawk (1979) and the Farrars (1984) made the phases her chief sign. The glyph is late 20th-century, inventor unknown. Faithful to its common form:
-- `M 16 32 A 18 18 0 0 1 16 68 A 24 24 0 0 0 16 32`
-- `M 50 36 A 14 14 0 1 1 50 64 A 14 14 0 1 1 50 36`
-- `M 84 32 A 18 18 0 0 0 84 68 A 24 24 0 0 1 84 32`
+The triple moon: waxing crescent, full disc, waning crescent, the Goddess as maiden, mother, crone. Graves's The White Goddess (1948) originated the triad ("As the New Moon or Spring she was a girl; as the Full Moon or Summer she was woman; as the Old Moon or Winter she was hag"). The glyph's maker is undocumented. Faithful to the usual modern rendering (each crescent a 120-degree arc inside a 180-degree arc, the disc's size, touching it, horns outward):
+- `M 2 26 A 24 24 0 0 1 2 74 A 27.7 27.7 0 0 0 2 26`
+- `M 50 26 A 24 24 0 1 1 50 74 A 24 24 0 1 1 50 26`
+- `M 98 74 A 24 24 0 0 1 98 26 A 27.7 27.7 0 0 0 98 74`
 
-The Horned God sign: a disc under an upturned crescent, paired with the triple moon; Wiccan, no documented creator. Faithful to its common form:
-- `M 26 22 A 24 24 0 0 0 74 22 A 32 32 0 0 1 26 22`
-- `M 50 46 A 20 20 0 1 1 50 86 A 20 20 0 1 1 50 46`
+The Horned God sign: a disc under an upturned crescent; Wiccan, no documented creator or described proportions. Approximate (as commonly rendered, disc and crescent the same width, touching):
+- `M 26 20 A 24 24 0 0 0 74 20 A 27.2 27.2 0 0 1 26 20`
+- `M 50 44 A 24 24 0 1 1 50 92 A 24 24 0 1 1 50 44`
 
 ## 6. Robert Cochrane and traditional witchcraft
 
-Cochrane founded the Clan of Tubal Cain and died in 1966; Ronald Hutton disputes his hereditary claim. His successor Evan John Jones (Magister 1966-1998) wrote Witchcraft: A Tradition Renewed (1990, with Doreen Valiente). The Clan's symbols start from the stang, a forked staff set up as altar, and include the roebuck in the thicket, the spiral, the morning and evening stars, and the mill, the circle trodden round the stang. A transcription of Cochrane's ciphers from Jones's teaching arranges glyphs on a compass, beginning with the Three Queens and the round of life (birth, youth, maturity, wisdom, death), with cross-references left deliberately rough. Not drawn. What carries over: these are diagrams of a working space and a myth, not letters.
+Robert Cochrane (Roy Bowers, 1931-1966) founded the Clan of Tubal Cain (1951 or the early 1960s, sources differ); Ronald Hutton disputes his hereditary claim. Evan John Jones (Magister 1966-1998) wrote Witchcraft: A Tradition Renewed (1990), Valiente writing the foreword. Tools: knife, stang, cup, whetstone, cord. The stang, a forked staff used as a portable altar, per Jones: ash shaft, iron fork, iron-shod foot, two upward crossed arrows below the fork, garlanded at Candlemas, May Eve, Lammas and Halloween.
+
+A transcription of Cochrane's ciphers from Jones's teaching (clanoftubalcain.org.uk), cross-referenced roughly on purpose, gives in words: the Three Queens and the round of life (birth, youth, maturity, wisdom, death); the Four Kings of the Compass, eight directions; the left, cursing hand marked at thumb, heel of thumb, fingertip and ear finger; three dark moons shot with an arrow (baneful Saturn, Fate); the reversed pentagram as the Horned God, spirit down, air and earth as horns; a dark triangle in a circle (Fate, three nails of cursing); a skull; a heart; runic staves. Not drawn. What carries over: diagrams of a working space, a hand and a myth, not letters.
 
 ## 7. Cords, knots, ladders, poppets, bottles, mirrors
 
-Wind knots: a fourteenth-century record describes wind tied under three knots of thread. Coastal witches in Cornwall, Devon, Shetland and Man sold sailors a cord: the first knot loosed a moderate wind, the second half a gale, the third a storm (Alexander Roberts, 1616). Approximate:
+Wind knots: on the Isle of Man, by one fourteenth-century record, witches sold sailors wind put "under three knots of thread", loosed one by one (Janet Bord, quoted by the Boscastle Museum of Witchcraft and Magic). The usual scale, moderate wind, gale, storm, was not confirmed here. Approximate:
 - `M 8 50 L 26 50`
 - `M 26 50 A 6 6 0 1 1 32 50`
 - `M 32 50 L 44 50`
@@ -90,7 +92,7 @@ Wind knots: a fourteenth-century record describes wind tied under three knots of
 - `M 62 50 A 6 6 0 1 1 68 50`
 - `M 68 50 L 92 50`
 
-The witch's ladder: a feathered rope found in 1878-1879 in the roof of a demolished house at Wellington, Somerset, with brooms and a chair, now in the Pitt Rivers Museum. Abraham Colles wrote it up for Folk-Lore in 1887; the workmen's name for it was never explained. The meaning is hearsay, but folklorists made it famous. Approximate, a hanging cord with crosswise feathers:
+The witch's ladder: found in 1878-1879 in the roof space of a demolished house at Wellington, Somerset, with six brooms and an old chair; the workmen said the chair was for witches to rest in, the brooms to ride, the rope a ladder to cross the roof (Abraham Colles, Folk-Lore Journal, 1887). A string about 1.5 m long, looped at one end, cock's feathers inserted along it: Pitt Rivers Museum 1911.32.7. Its use is unknown (milk-stealing, a deer sewel and a bird-scarer were all suggested); no other old example is recorded. Approximate, a hanging cord with feathers along it:
 - `M 50 4 L 50 96`
 - `M 38 18 L 62 22`
 - `M 38 34 L 62 38`
@@ -98,98 +100,81 @@ The witch's ladder: a feathered rope found in 1878-1879 in the roof of a demolis
 - `M 38 66 L 62 70`
 - `M 38 82 L 62 86`
 
-Poppets: Boscastle's Museum of Witchcraft and Magic holds clay and wax figures stuck with pins, one wax figure with three pins in the right hip "to cause victim to develop a Hernia" and a maker's kit of pins, straws for breathing life in, and coloured powders for the flesh.
+Poppets: the Boscastle museum holds a wax poppet with "3 pins in right hip to cause victim to develop a Hernia" (fee, by Cecil Williamson's note, one old ten-shilling note) and a clay poppet-maker's "assistant" with pins, four straws to breathe life into a poppet or suck it out, and phials of coloured powder for the clay or wax flesh.
 
-Witch bottles are counter-magic against witches. About 250 English examples, 130 of them bellarmines; iron pins or nails in 95 percent, hair in a quarter. The Greenwich bottle (found 2004, buried upside down) held 12 nails, one through a leather heart, 8 brass pins, hair, nail parings, navel fluff, sulphur and a smoker's urine. Urine and hair tied it to the witch; heating it made her suffer.
+Witch bottles are counter-magic against witches, from the mid-17th century. About 250 English examples, 130 of them bellarmines; iron pins or nails in 95 percent, hair in 25; all tested for urine were positive. Half lie at the hearth, a quarter under thresholds. The Greenwich bottle (found 2004, buried upside down) held 12 iron nails, one through a leather heart, 8 brass pins, hair, 10 fingernail clippings, navel lint and a smoker's urine with sulphur. The urine, nails and hair are the bewitched person's own (a 1682 recipe: "your Wive's urine, the paring of her Nails, some of her Hair"); the bottle was believed to torment the witch.
 
-Mirrors: the documented magic mirror is learned scrying, John Dee's Aztec obsidian mirror, gazed into by Edward Kelley; modern black-mirror scrying descends from it.
+Mirrors: John Dee's obsidian "spirit mirror" (British Museum) is Aztec, its glass from Pachuca, Mexico; the Aztecs scried with such mirrors, linked to Tezcatlipoca, "smoking mirror". An old label: "The Black Stone into which Dr Dee used to call his Spirits".
 
 ## 8. The sabbat in pictures
 
-Hans Baldung Grien's The Witches (1510), a two-block chiaroscuro woodcut: naked women round a vessel bursting with fumes, one riding backwards on a flying goat, a cat, skulls and bones. Guazzo's pact woodcuts (1608). Jan Ziarnko's fold-out sabbat in Pierre de Lancre's Tableau de l'inconstance (1613): cauldrons, frogs, bellows, sickles, skulls, round dances, the enthroned goat. Goya's El Aquelarre (1797-1798, Museo Lázaro Galdiano): a vine-crowned he-goat in a ring of witches offering infants; and his Black Painting of the Great He-Goat (about 1819-1823, Prado). These, not the trials, set the stock look: goat, ring, cauldron, bones, smoke, night.
+Hans Baldung Grien's The Witches (1510), a two-block chiaroscuro woodcut: naked witches preparing flying ointment before the sabbat, vapours with toads and insects pouring from the jar, one riding backwards on a flying goat, a cat, a human and a horse skull, bones. Jan Ziarnko's fold-out sabbat in the 1613 second edition of de Lancre's Tableau de l'inconstance (first 1612): children flown to the sabbat, a child offered to a demon, village musicians, naked dancing. Goya's El Aquelarre (1797-1798, Museo Lázaro Galdiano): a vine-crowned he-goat in a ring of witches offering infants; and his Black Painting The Great He-Goat (1820-1823, Prado). These, not the trials, set the stock look: goat, ring, cauldron, bones, smoke, night.
 
 ## 9. What witch magic physically looked like
 
-Materials: clay, wax, thorns, pins, nails; hair, nail parings, urine, worn linen; teeth and bones from graves; toad venom in an oyster shell; a cat and a dead man's joints; cords, knots, feathers; bottles; blood on virgin parchment; an engraved stone.
-Tools: blasting rod, triangle of pacts, black-hilted knife, sword, wand, pentacle, censer, scourge, cords, salt, water, chalk.
-Words: oaths, conjurations naming spirits, blessings of water and salt, quarter calls, charms spoken over the thing made.
-Timing: night; Mars's day for a man's figure (Verum); Saturn's day and hour for the knife (Key of Solomon); weekdays (Honorius); moon phase and sabbats (Wicca).
-Place: thresholds, beds, roofs, graves, the sea, the fire. Made, worked, then hidden or destroyed.
+Materials: clay, wax, thorns, pins, nails; hair, nail parings, urine, worn linen; grave teeth; toad venom; cords, feathers; bottles; blood on virgin parchment; engraved gems; animal skins.
+Tools: blasting rod, triangle of pacts, black-hilted knife, sword, wand, pentacle, censer, scourge, cords, salt, water, chalk, stang.
+Timing: night; Mars's day and hour (Verum, both sexes); Saturn's for the black-hilted knife; set weekday hours (Honorius); sunrise (Grand Grimoire); the four Great Sabbats.
+Place: hearths, thresholds, roofs, graves, the sea, the fire. Made, worked, then hidden or destroyed.
 
 ## How witches built theirs
 
 1. It stands for a person or a working: a pact signature, a familiar's name, a degree, a wish tied into a cord. Decide whose mark it is and what it binds.
 2. Start from the witch's few shapes: circle, triangle either way, pentagram either way, crescent, straight cord or stang, fork, spiral, knot loop. Every documented Craft sign is two or three of these.
 3. Orientation and stacking carry meaning: point down and point up differ in the degree signs; a crescent above a disc is the God, crescents beside it the Goddess. Choose direction deliberately.
-4. A name may hide in it: write it in Theban and fold the strokes into the figure, or reduce it to one connected signature as the grimoire characters are.
+4. A name may hide in it: write it in Theban and fold the strokes into the figure, set initials into it as the Verum sets name and surname in its two half-circles, or reduce it to one connected signature as the grimoire characters are.
 5. Keep it to a few hand strokes. If it cannot be scratched on wax with a pin, it is not a witch's sigil.
 6. Make it of something: ink, blood, wax, clay, cord, stone.
 7. Make it at a stated day, hour or moon phase.
 8. Make it inside a cast circle: salt and water, incense, quarters, then draw.
-9. Then hide it, wear it unseen, or destroy it, like the secret mark, the threshold bundle, Gardner's destroyable pentacle, the burned clay picture.
+9. Then hide it, wear it unseen, or destroy it, like the secret mark, the bottle under the hearth, Gardner's wax pentacle and washed-off signs, the burned clay picture.
 10. Name what each borrowed stroke comes from, and say plainly what is new.
 
 ## Sources
 
-Read as web search extracts on 2026-10-20 (direct page fetch was unavailable).
+Pages read directly on 2026-10-20; very long pages (Potts, Daemonologie, Pendle witches) read in the sections cited.
 
-- https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000153/html/am153--384.html
-- https://museumofwitchcraftandmagic.co.uk/?p=43166
-- https://www.history.com/articles/7-bizarre-witch-trial-tests
-- https://en.wikipedia.org/wiki/Newes_from_Scotland
-- https://en.wikipedia.org/wiki/Geillis_Duncan
-- https://en.wikipedia.org/wiki/North_Berwick_witch_trials
-- https://origins.osu.edu/read/agnes-sampson-witchcraft-edinburgh
-- https://www.mentalfloss.com/history/agnes-sampson-king-james-witch-trials
-- https://en.wikipedia.org/wiki/Pendle_witches
+- https://www.gutenberg.org/files/14015/14015-h/14015-h.htm
+- https://www.gutenberg.org/files/25929/25929-h/25929-h.htm
 - https://www.gutenberg.org/files/18253/18253-h/18253-h.htm
-- https://northwestnatureandhistory.co.uk/2025/10/06/unnatural-histories-dandy-the-dog-james-devices-shape-shifting-familiar/
-- https://en.wikipedia.org/wiki/Daemonolatreiae_libri_tres
-- https://folklorethursday.com/folklife/witch-defining-witchcraft-malleus-maleficarum/
-- https://faculty.umb.edu/gary_zabel/Courses/Phil%20281b/Philosophy%20of%20Magic/Arcana/Witchcraft%20and%20Grimoires/Guazzo.html
-- https://threehandspress.com/shop/witches-pact-devil/
+- https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000153/html/am153--384.html
+- https://en.wikisource.org/wiki/Compendium_Maleficarum/Book_1/Chapter_6
+- https://en.wikipedia.org/wiki/Compendium_Maleficarum
+- https://en.wikipedia.org/wiki/Devil%27s_mark
+- https://en.wikipedia.org/wiki/Matthew_Hopkins
+- https://en.wikipedia.org/wiki/North_Berwick_witch_trials
+- https://en.wikipedia.org/wiki/Pendle_witches
 - https://en.wikipedia.org/wiki/Urbain_Grandier
-- https://gutenberg.org/files/14015/14015-h/14015-h.htm
-- https://en.wikipedia.org/wiki/Pyewacket_(familiar_spirit)
 - https://en.wikipedia.org/wiki/Grimorium_Verum
-- https://sacred-texts.com/grim/bcm/bcm20.htm
-- https://esotericarchives.com/solomon/gv_bi.htm
-- https://www.historicmysteries.com/grand-grimoire/
-- https://sacred-texts.com/grim/bcm/bcm64.htm
-- https://www.sacred-texts.com/grim/bcm/bcm51.htm
+- https://en.wikipedia.org/wiki/Grand_Grimoire
 - https://en.wikipedia.org/wiki/The_Grimoire_of_Pope_Honorius
+- https://esotericarchives.com/solomon/gv.htm
+- https://esotericarchives.com/solomon/grand.htm
+- https://esotericarchives.com/solomon/grimhono.htm
+- https://esotericarchives.com/solomon/grimhon2.htm
+- https://esotericarchives.com/solomon/grimhon3.htm
 - https://www.esotericarchives.com/solomon/The-True-Grimoire-of-Pope-Honorius-1736.pdf
+- https://esotericarchives.com/solomon/ksol2.htm
 - https://en.wikipedia.org/wiki/Theban_alphabet
-- https://omniglot.com/conscripts/theban.htm
 - https://en.wikipedia.org/wiki/Book_of_Shadows
 - https://en.wikipedia.org/wiki/Doreen_Valiente
-- https://sacred-texts.com/pag/gbos/gbos00.htm
-- https://sacred-texts.com/pag/gbos/gbos40.htm
+- https://www.sacred-texts.com/pag/gbos/gbos00.htm (with chapters gbos01-gbos41)
 - https://en.wikipedia.org/wiki/Magical_tools_in_Wicca
-- https://en.wikipedia.org/wiki/Athame
-- https://wicca.fandom.com/wiki/Athame
-- https://digitalambler.com/2012/09/22/black-hilted-dagger-consecrated/
-- https://www.controverscial.com/The%20Pentagram%20-%20Pentacle.htm
-- https://www.learnreligions.com/pentagrams-4123031
-- https://www.llewellyn.com/blog/2010/06/is-the-inverted-pentagram-evil-or-satanic/
 - https://en.wikipedia.org/wiki/Triple_Goddess_(Neopaganism)
-- https://en.wikipedia.org/wiki/Horned_God
+- https://commons.wikimedia.org/wiki/File:Triple-Goddess-Waxing-Full-Waning-Symbol.svg
+- https://commons.wikimedia.org/wiki/File:Horned-God-Symbol.svg
 - https://en.wikipedia.org/wiki/Robert_Cochrane_(witch)
 - https://en.wikipedia.org/wiki/Cochrane%27s_Craft
-- https://clanoftubalcain.org.uk/cyphers.html
 - https://en.wikipedia.org/wiki/Evan_John_Jones_(witch)
-- https://museumofwitchcraftandmagic.co.uk/?p=150147
+- https://clanoftubalcain.org.uk/cyphers.html
 - https://museumofwitchcraftandmagic.co.uk/news/selling-the-wind/
 - https://england.prm.ox.ac.uk/englishness-witchs-ladder.html
-- https://ueaeprints.uea.ac.uk/id/eprint/74967/
 - https://museumofwitchcraftandmagic.co.uk/object/figure-curse/
 - https://museumofwitchcraftandmagic.co.uk/object/poppet-4/
 - https://www.apotropaios.co.uk/witch-bottles.html
-- https://www.archaeology.org/online/features/halloween/opening_witch_bottle/
-- https://livescience.com/john-dee-spirit-mirror-aztec
+- https://archive.archaeology.org/online/features/halloween/opening_witch_bottle/
+- https://www.livescience.com/john-dee-spirit-mirror-aztec
 - https://en.wikipedia.org/wiki/The_Witches_(Hans_Baldung)
-- https://exhibits.tulane.edu/exhibit/monsters/hans-baldung-grien-witches-sabbath/
-- https://digital.library.cornell.edu/catalog/ss:11177450
-- https://discovery-pp.ucl.ac.uk/10103453/1/Maus%20de%20Rolley_The%20Mythmaker%20of%20the%20Sabbat.pdf
+- https://discovery.ucl.ac.uk/10103453/1/Maus%20de%20Rolley_The%20Mythmaker%20of%20the%20Sabbat.pdf
 - https://en.wikipedia.org/wiki/Witches%27_Sabbath_(Goya,_1798)
-- https://hekint.org/francisco-goyas-black-period/
+- https://en.wikipedia.org/wiki/Witches%27_Sabbath_(The_Great_He-Goat)
