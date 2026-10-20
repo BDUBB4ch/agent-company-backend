@@ -1,0 +1,63 @@
+# Local Python environment -- reinstall from requirements.txt, don't version it
+venv/
+__pycache__/
+*.pyc
+
+# Secrets -- copy .env.example instead
+.env
+
+# The live brain database and its backups (see backend/db_backup.py) --
+# binary, constantly changing, and already backed up separately; versioning
+# it in git would just bloat history with unreadable diffs.
+data/*.db
+data/backups/
+data/backend.log
+data/backend.log.old
+# Sophie's local trace log (see tracing.py) -- same category, constantly
+# appended, not source.
+data/traces.jsonl
+
+# My own ad-hoc debug output from restarting the backend during development
+backend_stdout.log
+backend_stderr.log
+backend/restart.log
+
+# Piper TTS voice models -- large binary .onnx files, downloaded once via
+# `python -m piper.download_voices`, not source (same category as venv/).
+piper_voices/
+
+# ---- 2026-10-19: private GitHub repo for cloud sessions -- CODE ONLY. Nothing of Barry's or the agents' goes up.
+data/
+drop/
+personalities/
+personas/
+models/
+tools/
+venv/
+docs/history/
+docs/research/
+docs/mockups/
+*.log
+*.db
+*.sqlite
+*.gguf
+*.safetensors
+*.mp4
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.webp
+.env
+.env.*
+!.env.example
+HANDOFF-*.md
+BARRYS-AGENTS.md
+kokoro/
+knowledge/
+docs/*
+!docs/plans/
+BUILD_HISTORY.md
+_seed_*.py
+searxng/

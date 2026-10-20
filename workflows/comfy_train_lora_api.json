@@ -1,0 +1,53 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": { "ckpt_name": "RealVisXL_V5.0_fp16.safetensors" }
+  },
+  "2": {
+    "class_type": "LoadImageTextDataSetFromFolder",
+    "inputs": { "folder": "FOLDER_PLACEHOLDER" }
+  },
+  "3": {
+    "class_type": "MakeTrainingDataset",
+    "inputs": {
+      "images": ["2", 0],
+      "vae": ["1", 2],
+      "clip": ["1", 1],
+      "texts": ["2", 1]
+    }
+  },
+  "4": {
+    "class_type": "TrainLoraNode",
+    "inputs": {
+      "model": ["1", 0],
+      "latents": ["3", 0],
+      "positive": ["3", 1],
+      "batch_size": 1,
+      "grad_accumulation_steps": 1,
+      "steps": 400,
+      "learning_rate": 0.0001,
+      "rank": 16,
+      "optimizer": "AdamW",
+      "loss_function": "MSE",
+      "seed": 0,
+      "training_dtype": "bf16",
+      "lora_dtype": "bf16",
+      "quantized_backward": false,
+      "algorithm": "LoRA",
+      "gradient_checkpointing": true,
+      "checkpoint_depth": 1,
+      "offloading": false,
+      "existing_lora": "[None]",
+      "bucket_mode": false,
+      "bypass_mode": false
+    }
+  },
+  "5": {
+    "class_type": "SaveLoRA",
+    "inputs": {
+      "lora": ["4", 0],
+      "prefix": "PREFIX_PLACEHOLDER",
+      "steps": 400
+    }
+  }
+}
